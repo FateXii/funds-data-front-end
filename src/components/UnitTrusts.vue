@@ -247,7 +247,7 @@ export default {
       formState.canMoveOn = false;
       formState.reasonNeeded = false;
       if (canMoveOn) {
-        formState.step = (formState.step + 1) % 2;
+        formState.step = (formState.step + 1) % 4;
       }
     }
     watch(questionaire, (current) => console.log(current));
