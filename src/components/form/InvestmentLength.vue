@@ -21,7 +21,7 @@
       class="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
     />
     <div
-      class="absolute inset-y-0 right-0 pr-1 flex items-center pointer-events-none"
+      class="absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none"
     >
       <span class="text-gray-500 sm:text-sm">Years</span>
     </div>

@@ -14,85 +14,11 @@
       />
     </div>
     <div v-if="formState.step == 2">
-      <template v-if="questionaire.savingReason !== 'retirement'">
-        <select
-          v-model="questionaire.pvType"
-          @change="processReason"
-          class="mt-1 ml-8 block w-10/12 py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
-        >
-          <option value="lump">lump sum</option>
-          <option value="monthly">monthly installments</option>
-        </select>
-        <label
-          v-if="questionaire.pvType === 'lump'"
-          for="investment-amount"
-        >Enter lump sum investment amount</label>
-        <label
-          v-else
-          for="investment-amount"
-        >Enter monthy investment amount</label>
-        <div class="ml-16 w-8/12 relative rounded-md shadow-sm">
-          <div
-            class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none"
-          >
-            <span class="text-gray-500 sm:text-sm">R</span>
-          </div>
-          <input
-            id="investment-amount"
-            name="investment-amount"
-            v-model="questionaire.investmentAmount"
-            @change="processReason"
-            class="focus:ring-indigo-500 focus:border-indigo-500 block w-full pl-7 pr-12 sm:text-sm border-gray-300 rounded-md"
-            placeholder="0.00"
-            type="number"
-          />
-        </div>
-      </template>
-      <template v-else>
-        <label
-          for="expected-retirement-annual-payment"
-        >Enter expected annual retirement payout</label>
-
-        <div class="ml-16 w-8/12 relative rounded-md shadow-sm">
-          <div
-            class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none"
-          >
-            <span class="text-gray-500 sm:text-sm">R</span>
-          </div>
-          <input
-            id="expected-retirement-annual-payment"
-            name="expected-retirement-annual-payment"
-            v-model="questionaire.expectedRetirement"
-            @change="processReason"
-            type="number"
-            class="focus:ring-indigo-500 focus:border-indigo-500 block w-full pl-7 pr-12 sm:text-sm border-gray-300 rounded-md"
-          />
-        </div>
-        <label
-          for="expected-length-of-payments"
-        >How many years would you like to receive payment</label>
-
-        <div class="ml-16 w-8/12 relative rounded-md shadow-sm">
-          <input
-            id="expected-length-of-payments"
-            name="expected-length-of-payments"
-            v-model="questionaire.paymentLength"
-            @change="processReason"
-            type="number"
-            class="focus:ring-indigo-500 focus:border-indigo-500 block w-full pr-12 sm:text-sm border-gray-300 rounded-md"
-          />
-          <div
-            class="absolute inset-y-0 right-0 -pl-3 flex items-center pointer-events-none"
-          >
-            <span class="text-gray-500 sm:text-sm">Years</span>
-          </div>
-        </div>
-      </template>
-      <button
-        class="mt-1 inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-        @click.prevent="nextPage"
-        v-if="formState.canMoveOn"
-      >Next</button>
+      <InvestmentAmount
+        :savingReason="questionaire.savingReason"
+        @moveOn="nextPage"
+        @giveInvestmentAmount="getInvestmentAmount"
+      />
     </div>
   </form>
   <div v-if="formState.step == 3">
@@ -133,6 +59,7 @@ import { reactive, ref, watch } from 'vue';
 import data from '../assets/data.json';
 import InvestmentType from './form/InvestmentType.vue';
 import InvestmentLength from './form/InvestmentLength.vue';
+import InvestmentAmount from './form/InvestmentAmount.vue';
 import {
   capitalRequired,
   interestRequired,
@@ -144,6 +71,7 @@ export default {
   components: {
     InvestmentType,
     InvestmentLength,
+    InvestmentAmount,
   },
   setup() {
     const formState = reactive({
@@ -169,6 +97,17 @@ export default {
     }
     function getInvstmentLength(investmentLength) {
       questionaire.investmentLength = investmentLength;
+    }
+    function getInvestmentAmount(
+      pvType,
+      payoutLength,
+      expectedRetirementPayout,
+      investmentAmount,
+    ) {
+      questionaire.pvType = pvType;
+      questionaire.paymentLength = payoutLength;
+      questionaire.expectedRetirement = expectedRetirementPayout;
+      questionaire.investmentAmount = investmentAmount;
     }
     function getTrusts() {
       const isRetirementFund = questionaire.savingReason === 'retirement';
@@ -252,6 +191,7 @@ export default {
     }
     watch(questionaire, (current) => console.log(current));
     return {
+      getInvestmentAmount,
       getTrusts,
       getReason,
       getInvstmentLength,

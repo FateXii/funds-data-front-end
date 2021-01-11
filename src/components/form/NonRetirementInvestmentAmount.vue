@@ -1,14 +1,13 @@
 <template>
   <select
-    v-model="questionaire.pvType"
-    @change="processReason"
+    v-model="pvType"
     class="mt-1 ml-8 block w-10/12 py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
   >
     <option value="lump">lump sum</option>
     <option value="monthly">monthly installments</option>
   </select>
   <label
-    v-if="questionaire.pvType === 'lump'"
+    v-if="pvType === 'lump'"
     for="investment-amount"
   >Enter lump sum investment amount</label>
   <label
@@ -24,8 +23,7 @@
     <input
       id="investment-amount"
       name="investment-amount"
-      v-model="questionaire.investmentAmount"
-      @change="processReason"
+      v-model="investmentAmount"
       class="focus:ring-indigo-500 focus:border-indigo-500 block w-full pl-7 pr-12 sm:text-sm border-gray-300 rounded-md"
       placeholder="0.00"
       type="number"
@@ -34,7 +32,25 @@
 </template>
 
 <script>
-export default {};
+import { ref, watch } from 'vue';
+
+export default {
+  emits: {
+    giveNonRetirementInvestmentAmount: null,
+    givePvType: null,
+  },
+  setup(props, { emit }) {
+    const pvType = ref('');
+    const investmentAmount = ref(0);
+    watch(investmentAmount, (newAmount) => {
+      emit('giveNonRetirementInvestmentAmount', newAmount);
+    });
+    watch(pvType, (newAmount) => {
+      emit('givePvType', newAmount);
+    });
+    return { pvType, investmentAmount };
+  },
+};
 </script>
 
 <style>
