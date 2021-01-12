@@ -14,7 +14,7 @@
     v-else
     for="investment-amount"
   >Enter monthy investment amount</label>
-  <div class="ml-16 w-8/12 relative rounded-md shadow-sm">
+  <div class="ml-8 w-10/12 relative rounded-md shadow-sm">
     <div
       class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none"
     >
@@ -24,7 +24,7 @@
       id="investment-amount"
       name="investment-amount"
       v-model="investmentAmount"
-      class="focus:ring-indigo-500 focus:border-indigo-500 block w-full pl-7 pr-12 sm:text-sm border-gray-300 rounded-md"
+      class="mt-1 block w-full py-2 pl-6 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
       placeholder="0.00"
       type="number"
     />
@@ -40,13 +40,14 @@ export default {
     givePvType: null,
   },
   setup(props, { emit }) {
-    const pvType = ref('');
-    const investmentAmount = ref(0);
+    const pvType = ref(null);
+    const investmentAmount = ref(null);
     watch(investmentAmount, (newAmount) => {
       emit('giveNonRetirementInvestmentAmount', newAmount);
     });
-    watch(pvType, (newAmount) => {
-      emit('givePvType', newAmount);
+    watch(pvType, (value) => {
+      console.log(value);
+      emit('givePvType', value);
     });
     return { pvType, investmentAmount };
   },

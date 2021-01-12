@@ -18,6 +18,7 @@
       name="investment-length"
       v-model="investmentLength"
       type="number"
+      placeholder="0"
       class="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
     />
     <div
@@ -26,17 +27,20 @@
       <span class="text-gray-500 sm:text-sm">Years</span>
     </div>
   </div>
-  <button
-    class="mt-1 inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+  <Button
     @click.prevent="nextPage"
     v-if="canMoveOn"
-  >Next</button>
+  >Next</Button>
 </template>
 
 <script>
 import { ref, watch } from 'vue';
+import Button from './Button.vue';
 
 export default {
+  components: {
+    Button,
+  },
   props: {
     savingReason: { type: String, required: true },
   },
@@ -51,11 +55,13 @@ export default {
   },
   setup(props, { emit }) {
     const canMoveOn = ref(false);
-    const investmentLength = ref(0);
+    const investmentLength = ref(null);
     watch(investmentLength, (newLength) => {
       emit('giveInvestmentLength', { investmentLength: newLength });
-      if (newLength > 0) {
+      if (newLength) {
         canMoveOn.value = true;
+      } else {
+        canMoveOn.value = false;
       }
     });
     function nextPage() {

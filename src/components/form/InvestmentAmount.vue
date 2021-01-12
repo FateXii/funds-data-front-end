@@ -6,25 +6,26 @@
   />
   <RetirementInvestmentAmount
     v-else
-    @giveExpectedRetirementPayOut="getExpectedRetirementPayout"
+    @giveExpectedRetirementPayout="getExpectedRetirementPayout"
     @givePayoutLength="getPayoutLength"
   />
-  <button
-    class="mt-1 inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-    @click.prevent="nextPage"
+  <Button
     v-if="canMoveOn"
-  >Next</button>
+    @click.prevent="nextPage"
+  >Next</Button>
 </template>
 
 <script>
 import { ref, watch } from 'vue';
 import NonRetirementInvestmentAmount from './NonRetirementInvestmentAmount.vue';
 import RetirementInvestmentAmount from './RetirementInvestmentAmount.vue';
+import Button from './Button.vue';
 
 export default {
   components: {
     NonRetirementInvestmentAmount,
     RetirementInvestmentAmount,
+    Button,
   },
   props: {
     savingReason: { type: String, required: true },
@@ -35,38 +36,55 @@ export default {
       payoutLength,
       expectedRetirementPayout,
       investmentAmount,
-    }) => (pvType in ['lump', 'monthly'] && investmentAmount)
-      || (expectedRetirementPayout && payoutLength),
+    }) => {
+      if (
+        !(
+          (pvType.value
+            && ['lump', 'monthly'].indexOf(pvType.value) > -1
+            && investmentAmount)
+          || (expectedRetirementPayout && payoutLength)
+        )
+      ) {
+        console.warn('Both values have to be filled');
+        return false;
+      }
+
+      return true;
+    },
     moveOn: null,
   },
   setup(props, { emit }) {
-    const pvType = ref('');
-    const investmentAmount = ref(0.0);
-    const payoutLength = ref(0);
-    const expectedRetirementPayout = ref(0.0);
+    const pvType = ref(null);
+    const investmentAmount = ref(null);
+    const payoutLength = ref(null);
+    const expectedRetirementPayout = ref(null);
     const canMoveOn = ref(false);
     function checkMoveOn() {
       return (
-        (pvType.value in ['lump', 'monthly'] && investmentAmount.value)
+        (pvType.value
+          && ['lump', 'monthly'].indexOf(pvType.value) > -1
+          && investmentAmount.value)
         || (expectedRetirementPayout.value && payoutLength.value)
       );
     }
     function setPvType(value) {
       pvType.value = value;
-      canMoveOn.value = checkMoveOn;
     }
     function getNonRetirementInvestmentAmount(value) {
       investmentAmount.value = value;
-      canMoveOn.value = checkMoveOn;
     }
     function getPayoutLength(value) {
       payoutLength.value = value;
-      canMoveOn.value = checkMoveOn;
     }
     function getExpectedRetirementPayout(value) {
       expectedRetirementPayout.value = value;
-      canMoveOn.value = checkMoveOn;
     }
+    watch(
+      [investmentAmount, pvType, expectedRetirementPayout, payoutLength],
+      () => {
+        canMoveOn.value = checkMoveOn();
+      },
+    );
     watch(canMoveOn, (value) => {
       if (value) {
         emit('giveInvestmentAmount', {

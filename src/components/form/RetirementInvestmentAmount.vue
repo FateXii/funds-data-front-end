@@ -13,6 +13,7 @@
       id="expected-retirement-annual-payment"
       name="expected-retirement-annual-payment"
       v-model="expectedRetirement"
+      placeholder="0.00"
       type="number"
       class="mt-1 w-full pl-7 flex py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
     />
@@ -27,6 +28,7 @@
       name="expected-length-of-payments"
       v-model="payoutLength"
       type="number"
+      placeholder="0"
       class="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
     />
     <div
@@ -43,16 +45,16 @@ import { ref, watch } from 'vue';
 export default {
   emits: {
     givePayoutLength: null,
-    giveExpectedRetirementPayOut: null,
+    giveExpectedRetirementPayout: null,
   },
   setup(props, { emit }) {
-    const expectedRetirement = ref(0.0);
-    const payoutLength = ref(0);
+    const expectedRetirement = ref(null);
+    const payoutLength = ref(null);
     watch(expectedRetirement, (value) => {
-      emit('giveExpectedRetirementPayOut', value);
+      emit('giveExpectedRetirementPayout', value);
     });
     watch(payoutLength, (value) => {
-      emit('giveExpectedRetirementPayOut', value);
+      emit('givePayoutLength', value);
     });
     return {
       expectedRetirement,
