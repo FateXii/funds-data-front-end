@@ -83,7 +83,6 @@ export default {
         expectedRetirementPayout,
         investmentAmount,
       } = value;
-      console.log(pvType);
       savingGoal.reason = questionaire.reasonStated
         ? questionaire.reasonStated
         : questionaire.savingReason;
@@ -95,7 +94,6 @@ export default {
       questionaire.paymentLength = payoutLength;
       questionaire.expectedRetirement = expectedRetirementPayout;
       questionaire.investmentAmount = investmentAmount;
-      console.log(savingGoal);
     }
     function getTrusts() {
       const isRetirementFund = questionaire.savingReason === 'retirement';

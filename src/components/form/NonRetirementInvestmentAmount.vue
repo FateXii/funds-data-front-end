@@ -40,15 +40,18 @@ export default {
     givePvType: null,
   },
   setup(props, { emit }) {
-    const pvType = ref(null);
+    const pvType = ref('monthly');
     const investmentAmount = ref(null);
     watch(investmentAmount, (newAmount) => {
       emit('giveNonRetirementInvestmentAmount', newAmount);
     });
-    watch(pvType, (value) => {
-      console.log(value);
-      emit('givePvType', value);
-    });
+    if (pvType.value) {
+      emit('givePvType', pvType.value);
+    } else {
+      watch(pvType, (value) => {
+        emit('givePvType', value);
+      });
+    }
     return { pvType, investmentAmount };
   },
 };
