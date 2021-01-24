@@ -52,6 +52,7 @@ export default {
       return true;
     },
     moveOn: null,
+    prevPage: null,
   },
   setup(props, { emit }) {
     const pvType = ref(null);
@@ -98,7 +99,11 @@ export default {
     function nextPage() {
       emit('moveOn', { canMoveOn });
     }
+    function prevPage() {
+      emit('prevPage', {});
+    }
     return {
+      prevPage,
       nextPage,
       canMoveOn,
       setPvType,

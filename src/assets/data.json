@@ -2,7 +2,7 @@
   {
     "formation_date": "11 Mar 2015",
     "is_reg_28_comliant": false,
-    "fund_size": 2029365723,
+    "fund_size": 2077129141,
     "domicile": "South Africa",
     "reporting_currency": "ZAR",
     "jse_code": "SIATA",
@@ -49,18 +49,19 @@
       "email": "contact@stanlib.com"
     },
     "lump_returns": {
-      "three_months": 7.7,
-      "six_months": 10.04,
-      "one_year": 7.98,
-      "three_years": 8.51,
-      "five_years": 9.49,
+      "three_months": 6.13,
+      "six_months": 9.18,
+      "one_year": 7.94,
+      "three_years": 8.1,
+      "five_years": 9.58,
       "ten_years": null
-    }
+    },
+    "objectives": "The portfolio will invest in all bonds that are represented in the JSE ASSA All - Bond Non-TR Clean Price Index. The portfolio may hold cash investments as well as bonds. The portfolio will hold the constituent bonds of the JSE ASSA All -Bond Non-TR Clean Price Index in the correct weightings, as far as possible. The portfolio may differ from the index from time to time due to liquidity constraints of the underlying bonds.The portfolio may also hold listed derivatives from time to time, to effect efficient portfolio management.The portfolio will not invest in off-shore investments.For the purpose of this portfolio, the manager shall reserve the right to close the portfolio to new investors on a date determined by the manager. This will be done in order to be able to manage the fund in accordance with its mandate. The manager may, once a portfolio has been closed, open that portfolio again to new investors on a date determined by the manager. The Trustee shall ensure that the investment policy set out in this Supplemental Deed is carried out."
   },
   {
     "formation_date": "21 Oct 2015",
     "is_reg_28_comliant": false,
-    "fund_size": 366888779,
+    "fund_size": 371874792,
     "domicile": "South Africa",
     "reporting_currency": "ZAR",
     "jse_code": "SLBIA",
@@ -107,18 +108,19 @@
       "email": "contact@stanlib.com"
     },
     "lump_returns": {
-      "three_months": 5.14,
-      "six_months": 7.05,
-      "one_year": 3.15,
-      "three_years": 1.3,
-      "five_years": 2.24,
+      "three_months": 5.2,
+      "six_months": 8.84,
+      "one_year": 4.1,
+      "three_years": 1.95,
+      "five_years": 2.29,
       "ten_years": null
-    }
+    },
+    "objectives": "The investment objective of the 1NVEST INFLATION LINKED BOND INDEX TRACKER FUND is to fully replicate both the interest-income and capital growth return of the iGov index ('the Index'), a sub-index of the Composite Inflation Linked Index ('CILI') calculated by the Johannesburg Stock Exchange in conjunction with the Actuarial Society of South Africa .In order to achieve this objective, investments to be acquired for the 1NVEST INFLATION LINKED BOND INDEX TRACKER FUND will consist of a spread of non-equity securities issued by the South African Government to the maximum permitted by the Act, and any other securities, which may be included in a portfolio in terms of the Act and relevant legislation, which are consistent with the portfolio's investment policy, but which will be limited to bonds.The manager will, at all times, endeavour to track the performance of the index by replicating its constituents, in their correct weightings as closely as possible. In the ordinary course of business the manager anticipates a tracking error of approximately 25 basis points (0.25%).The manager may from time to time invest in participatory interests or any other form of participation in portfolios of collective investment schemes or other similar collective investment schemes as the Act may allow from time to time, and which are consistent with the portfolio's investment policy. The STANLIB INFLATION LINKED BOND INDEX TRACKER FUND may from time to time invest in both listed and unlisted financial instruments, in accordance with the provisions of the Act, in order to achieve the portfolio's investment objective.For the purpose of the STANLIB INFLATION LINKED BOND INDEX TRACKER FUND, the manager shall reserve the right to close the portfolio to new investors on a date determined by the manager. This will be done in order to be able to manage the fund in accordance with its mandate. The manager may, once a portfolio has been closed, open that portfolio again to new investors on a date determined by the manager. The Trustee shall ensure that the investment policy set out in this Supplemental Deed is carried out."
   },
   {
     "formation_date": "5 Jun 2019",
     "is_reg_28_comliant": false,
-    "fund_size": 47045291,
+    "fund_size": 45563126,
     "domicile": "South Africa",
     "reporting_currency": "ZAR",
     "jse_code": "ETFBND",
@@ -165,18 +167,19 @@
       "email": "contact@stanlib.com"
     },
     "lump_returns": {
-      "three_months": 10.56,
-      "six_months": 20.35,
-      "one_year": 17.78,
+      "three_months": 4.43,
+      "six_months": 17.36,
+      "one_year": 15.78,
       "three_years": null,
       "five_years": null,
       "ten_years": null
-    }
+    },
+    "objectives": "No Fund Objective is available for this fund"
   },
   {
     "formation_date": "14 May 2002",
     "is_reg_28_comliant": true,
-    "fund_size": 3925027995,
+    "fund_size": 3933658488,
     "domicile": "South Africa",
     "reporting_currency": "ZAR",
     "jse_code": "ABBA",
@@ -223,18 +226,19 @@
       "email": "utenquiries@absa.co.za"
     },
     "lump_returns": {
-      "three_months": 6.62,
-      "six_months": 12.15,
-      "one_year": 11.85,
-      "three_years": 10.38,
-      "five_years": 11.4,
-      "ten_years": 8.59
-    }
+      "three_months": 4.65,
+      "six_months": 8.27,
+      "one_year": 11.46,
+      "three_years": 9.78,
+      "five_years": 11.32,
+      "ten_years": 8.87
+    },
+    "objectives": "The Fund will provide investors with well-diversified exposure to the South African Bond market as well as other interest bearing instruments and will invest primarily in South African bonds, corporate bonds, gilts, fixed deposits and other interest-bearing instruments of differing terms to maturity, taking into account changes in interest rates, credit risk and liquidity."
   },
   {
     "formation_date": "6 Sep 2018",
     "is_reg_28_comliant": false,
-    "fund_size": 230689221,
+    "fund_size": 231949795,
     "domicile": "South Africa",
     "reporting_currency": "ZAR",
     "jse_code": "ABOCA",
@@ -281,13 +285,14 @@
       "email": "utenquiries@absa.co.za"
     },
     "lump_returns": {
-      "three_months": 7.74,
-      "six_months": 10.17,
-      "one_year": 8.18,
+      "three_months": 6.19,
+      "six_months": 9.36,
+      "one_year": 8.14,
       "three_years": null,
       "five_years": null,
       "ten_years": null
-    }
+    },
+    "objectives": "The main objective for this portfolio is to match returns to the performance of the All Bond Composite Index (ALBI). The fund is a low-cost domestic income fund that tracks performance and returns in line with daily movement in the bond market."
   },
   {
     "formation_date": "13 Oct 2016",
@@ -339,18 +344,19 @@
       "email": "utenquiries@absa.co.za"
     },
     "lump_returns": {
-      "three_months": 2.58,
-      "six_months": 4.88,
-      "one_year": 6.92,
-      "three_years": 8.36,
+      "three_months": 2.06,
+      "six_months": 4.81,
+      "one_year": 6.87,
+      "three_years": 8.23,
       "five_years": null,
       "ten_years": null
-    }
+    },
+    "objectives": "The fund will be a fixed-interest portfolio that will predominantly invest in nominal and inflation linked fixed interest securities, other fixed income securities with longer term maturity bias, assets in liquid form and other fixed-income securities (non-equity securities) from the markets around the world(as legislation permits). Through active portfolio management, positions will be constantly monitored to ensure that they remain within the investment criteria over the investment term"
   },
   {
     "formation_date": "26 Jan 2009",
     "is_reg_28_comliant": false,
-    "fund_size": 1332269502,
+    "fund_size": 1339828285,
     "domicile": "South Africa",
     "reporting_currency": "ZAR",
     "jse_code": "ABBCA",
@@ -397,18 +403,19 @@
       "email": "utenquiries@absa.co.za"
     },
     "lump_returns": {
-      "three_months": 5.9,
-      "six_months": 8.42,
-      "one_year": 7.2,
-      "three_years": 7.1,
-      "five_years": 8.14,
-      "ten_years": 8.32
-    }
+      "three_months": 5.09,
+      "six_months": 8.44,
+      "one_year": 7.35,
+      "three_years": 7.16,
+      "five_years": 8.18,
+      "ten_years": 8.5
+    },
+    "objectives": "The primary objective of the Fund is to provide investors with income and capital growth over the medium to long term at levels of capital volatility associated with fixed interest type investments. The Fund will invest in non-equity securities, bonds and fixed deposits purchased through exchanges in South Africa."
   },
   {
     "formation_date": "17 Sep 2001",
     "is_reg_28_comliant": true,
-    "fund_size": 2404586443,
+    "fund_size": 2420499121,
     "domicile": "South Africa",
     "reporting_currency": "ZAR",
     "jse_code": "ISPF",
@@ -455,18 +462,19 @@
       "email": "info@ishltd.co.za"
     },
     "lump_returns": {
-      "three_months": 8.22,
-      "six_months": 10.5,
-      "one_year": 7.2,
-      "three_years": 7.91,
-      "five_years": 9.42,
-      "ten_years": 7.68
-    }
+      "three_months": 6.73,
+      "six_months": 9.8,
+      "one_year": 7.36,
+      "three_years": 7.72,
+      "five_years": 9.55,
+      "ten_years": 8.06
+    },
+    "objectives": "The specialist managers selected for this portfolio invest in fixed-interest instruments comprising mainly bonds, which generally have maturity dates longer than one year, and money-market instruments. Bonds are issued by governments or corporate entities and may provide an investor with a higher investment return than cash. The managers, which may have different bond investment styles, are given specific mandates aimed at steady growth in capital value and income. Relative to other single manager bond-only portfolios, this portfolio is expected to have lower volatility of returns over the medium term due to the nature of its construction. The portfolio is aimed at investors with a medium-term investment horizon (more than three years). Investment Solutions expects: ! A low probability of capital loss over the medium term ! Investment returns above inflation over the medium term"
   },
   {
     "formation_date": "1 Oct 2004",
     "is_reg_28_comliant": true,
-    "fund_size": 5183619149,
+    "fund_size": 5191655643,
     "domicile": "South Africa",
     "reporting_currency": "ZAR",
     "jse_code": "AGBD",
@@ -489,12 +497,12 @@
       "exit_fee": 0.0,
       "advisor_annual_fee": 0.0,
       "trailer_fee": 0.0,
-      "total_ter": 0.68,
-      "ter": 0.68,
+      "total_ter": 0.63,
+      "ter": 0.63,
       "performance_fee": "If the fund outperforms its benchmark, for each percentage of performance above the benchmark we add 0.25% to the minimum fee to a maximum fee of 0.75% p.a. excl. VAT.",
       "annual_management_fee": 0.29,
       "initial_fee": 0.0,
-      "ter_performance_fee": 0.38
+      "ter_performance_fee": 0.33
     },
     "statutory_data": {
       "fax": "021-415-2492",
@@ -513,18 +521,19 @@
       "email": "info@allangray.co.za"
     },
     "lump_returns": {
-      "three_months": 6.49,
-      "six_months": 9.99,
-      "one_year": 6.85,
-      "three_years": 9.25,
-      "five_years": 10.48,
-      "ten_years": 8.61
-    }
+      "three_months": 4.81,
+      "six_months": 7.28,
+      "one_year": 6.64,
+      "three_years": 8.48,
+      "five_years": 10.43,
+      "ten_years": 8.86
+    },
+    "objectives": "The Fund invests in South African interest bearing securities. Securities include national government, parastatal, municipal, corporate bonds and money market instruments. The Fund price is sensitive to interest rate movements because of the long-term nature of the Fund's investments. The duration of the Fund may differ materially from the benchmark. The Fund is managed to comply with investment limits governing retirement funds."
   },
   {
     "formation_date": "8 Feb 2016",
     "is_reg_28_comliant": false,
-    "fund_size": 1726473444,
+    "fund_size": 1683375799,
     "domicile": "South Africa",
     "reporting_currency": "ZAR",
     "jse_code": "ABFA",
@@ -571,18 +580,19 @@
       "email": "info@anchorcapital.co.za"
     },
     "lump_returns": {
-      "three_months": 7.75,
-      "six_months": 10.6,
-      "one_year": 7.82,
-      "three_years": 8.63,
+      "three_months": 5.83,
+      "six_months": 7.64,
+      "one_year": 7.62,
+      "three_years": 8.07,
       "five_years": null,
       "ten_years": null
-    }
+    },
+    "objectives": "The investments normally to be included in the portfolio will comprise of a combination of assets in liquid form and a combination of gilts and interest-bearing securities, including loan stock, semi-gilts, notes, debentures, debenture bonds, preference shares, money market instruments, bonds, corporate debt, convertible equities and non-equity securities. The portfolio may, from time to time, invest in listed and unlisted financial instruments. The manager may also include forward currency, interest rate and exchange-rate swap transactions for efficient portfolio management purposes."
   },
   {
     "formation_date": "18 Jan 2019",
     "is_reg_28_comliant": false,
-    "fund_size": 74681957,
+    "fund_size": 74940240,
     "domicile": "South Africa",
     "reporting_currency": "ZAR",
     "jse_code": "ABIFA",
@@ -605,8 +615,8 @@
       "exit_fee": 0.0,
       "advisor_annual_fee": 0.0,
       "trailer_fee": 0.0,
-      "total_ter": 0.71,
-      "ter": 0.71,
+      "total_ter": 0.7,
+      "ter": 0.7,
       "performance_fee": "-",
       "annual_management_fee": 0.5175,
       "initial_fee": 0.0,
@@ -629,18 +639,19 @@
       "email": "unittrust@argonasset.co.za"
     },
     "lump_returns": {
-      "three_months": 7.64,
-      "six_months": 10.95,
-      "one_year": 6.67,
+      "three_months": 5.27,
+      "six_months": 7.37,
+      "one_year": 6.32,
       "three_years": null,
       "five_years": null,
       "ten_years": null
-    }
+    },
+    "objectives": "In selecting investments for the Argon BCI Bond Fund, the Manager will seek to achieve an investment medium for investors, which shall have as its primary objective to maximise the portfolio's total return. In order to achieve this objective, the investments normally to be included in the portfolio will comprise of primarily bonds and to a lesser extent a combination of assets in liquid form and interest-bearing securities, including loan stock, semi-gilts, notes, debentures, debenture bonds, preference shares, money market instruments, corporate debt, convertible equities and non-equity securities. The portfolio may also invest in participatory interests or any other form of participation in portfolios of collective investment schemes or other similar collective investment schemes as the Act may allow from time to time, and which are consistent with the portfolio's investment policy. Where the aforementioned schemes are operated in territories other than South Africa, participatory interests or any other form of participation in portfolios of these schemes will be included in the portfolio only where the regulatory environment is, to the satisfaction of the manager and the trustee, of sufficient standard to provide investor protection at least equal to that in South Africa. The portfolio may from time to time invest in listed and unlisted financial instruments, in accordance with the provisions of the Act, and the Regulations thereto, as amended from time to time, in order to achieve the portfolio's investment objective. The manager may also include forward currency, interest rate and exchange rate swap transactions for efficient portfolio management purposes. The Trustee shall ensure that the investment policy set out in this Supplemental Deed is carried out. For the purpose of this portfolio, the manager shall reserve the right to close the portfolio to new investors on a date determined by the manager. This will be done in order to be able to manage the portfolio in accordance with its mandate. The manager may, once a portfolio has been closed, open that portfolio again to new investors on a date determined by the manager."
   },
   {
     "formation_date": "11 Aug 2016",
     "is_reg_28_comliant": true,
-    "fund_size": 808997201,
+    "fund_size": 824992044,
     "domicile": "South Africa",
     "reporting_currency": "ZAR",
     "jse_code": "ASHBA",
@@ -663,8 +674,8 @@
       "exit_fee": 0.0,
       "advisor_annual_fee": 0.0,
       "trailer_fee": 0.0,
-      "total_ter": 1.01,
-      "ter": 1.01,
+      "total_ter": 1.0,
+      "ter": 1.0,
       "performance_fee": "-",
       "annual_management_fee": 0.0,
       "initial_fee": 0.0,
@@ -687,18 +698,19 @@
       "email": "ashburtonquery@investoradmin.co.za"
     },
     "lump_returns": {
-      "three_months": 8.28,
-      "six_months": 11.31,
-      "one_year": 6.6,
-      "three_years": 8.24,
+      "three_months": 6.19,
+      "six_months": 8.95,
+      "one_year": 6.61,
+      "three_years": 7.68,
       "five_years": null,
       "ten_years": null
-    }
+    },
+    "objectives": "1 The investment objective of the Portfolio is to provide investors with a well-diversified exposure to the South African Bond market. The Portfolio will provide a high level of income and seek to enhance investment returns by the active management of interest rate, credit and liquidity risk. This Portfolio seeks to outperform the ALBI benchmark by 75 basis points per annum before fees are measured over a rolling 36 month period. 2 This Portfolio will invest in assets in liquid form, and in high yielding non-equity securities, and interest bearing securities including but not limited to public, parastatal, municipal and corporate bonds, inflation linked bonds, loan stock, debentures, fixed deposits and money market instruments. The Manager will be permitted to invest on behalf of the Portfolio in offshore investments as permitted by legislation. The average maturity profile will vary from time to time depending on market conditions. The Portfolio will have flexibility to invest across the duration, credit and yield spectrum. The Portfolio is permitted to use financial instruments for efficient portfolio management purposes. 3 The Portfolio may apart from assets in liquid form also include participatory interests or any other form of participation in portfolios of collective investment schemes or other similar schemes. Where the aforementioned schemes are operated in territories other than in South Africa, participatory interests or any other form of participation in these schemes will be included in the Portfolio only where the regulatory environment is to the satisfaction of the Manager and Trustee and is of a sufficient standard to provide investor protection at least equivalent to that in South Africa. 4 This Portfolio will be managed in compliance with prudential investment guidelines for retirement funds in South Africa to the extent allowed by the Act 5 Nothing in the supplemental deed shall preclude the Manager from varying the ratios of asset allocation and securities, to maximise capital growth and investment potential in changing economic environments or market conditions or to meet the requirements, if applicable, of any exchange formally recognised in terms of legislation and from retaining cash or placing cash on deposit in terms of the deed and any supplemental deeds thereto; provided that the Manager shall ensure that the aggregate value of the assets comprising the Portfolio shall consist of securities of the aggregate value required from time to time by the Act. 6 The Trustee shall ensure that the investment policy set out in this supplemental deed, the deed and in all supplemental deeds thereto is carried out. 7 For the purpose of this Portfolio, the Manager in consultation with the Investment Manager shall reserve the right to close the Portfolio to new investors on a date determined by the Manager. This will be done in order to be able to manage the Portfolio in accordance with its mandate. The Manager may, once a portfolio has been closed, open that portfolio again to new investors on a date determined by the Manager"
   },
   {
     "formation_date": "29 Jul 2016",
     "is_reg_28_comliant": false,
-    "fund_size": 167169942,
+    "fund_size": 167900222,
     "domicile": "South Africa",
     "reporting_currency": "ZAR",
     "jse_code": "AGTFA",
@@ -721,8 +733,8 @@
       "exit_fee": 0.0,
       "advisor_annual_fee": 0.0,
       "trailer_fee": 0.0,
-      "total_ter": 0.72,
-      "ter": 0.72,
+      "total_ter": 0.73,
+      "ter": 0.73,
       "performance_fee": "-",
       "annual_management_fee": 0.0,
       "initial_fee": 0.0,
@@ -745,18 +757,19 @@
       "email": "ashburtonquery@investoradmin.co.za"
     },
     "lump_returns": {
-      "three_months": 7.6,
-      "six_months": 9.83,
-      "one_year": 8.17,
-      "three_years": 7.94,
+      "three_months": 6.13,
+      "six_months": 9.09,
+      "one_year": 8.16,
+      "three_years": 7.74,
       "five_years": null,
       "ten_years": null
-    }
+    },
+    "objectives": "1 The objective of the Ashburton GOVI Tracker Fund is to track the full economic performance of the underlying index, JSE Government Bond Index, and to focus on achieving a total compound annual return which will substantially equate to the compound annual return of the Portfolio benchmark, as adjusted to take into account transaction and other costs and assets in liquid form. 2 The Portfolio will be passively managed in that the Manager will not buy and sell securities based on economic, financial and/or market analysis but rather, will buy and sell securities solely for the purpose of ensuring that the Portfolio tracks the Index. As such the investment objective and style of the Portfolio will be full replication of the Index. Accordingly the financial or other condition of any company or entity included from time to time in the Index will not result in the elimination of its securities from the Portfolio, unless the securities of such company or entity are removed from the Index itself. Trading in other instruments replicating the index as permissible by the Act will be allowed. The Portfolio is permitted to use financial instruments for efficient portfolio management purposes. 3 The Portfolio may apart from assets in liquid form also include participatory interests or any other form of participation in portfolios of collective investment schemes or other similar schemes. Where the aforementioned schemes are operated in territories other than in South Africa, participatory interests or any other form of participation in these schemes will be included in the Portfolio only where the regulatory environment is to the satisfaction of the Manager and Trustee and is of a sufficient standard to provide investor protection at least equivalent to that in South Africa. 4 This Portfolio will be managed in compliance with prudential investment guidelines for retirement funds in South Africa to the extent allowed by the Act 5 Nothing in the supplemental deed shall preclude the Manager from varying the ratios of asset allocation and securities, to maximise capital growth and investment potential in changing economic environments or market conditions or to meet the requirements, if applicable, of any exchange formally recognised in terms of legislation and from retaining cash or placing cash on deposit in terms of the deed and any supplemental deeds thereto; provided that the Manager shall ensure that the aggregate value of the assets comprising the Portfolio shall consist of securities of the aggregate value required from time to time by the Act. 6 The Trustee shall ensure that the investment policy set out in this supplemental deed, the deed and in all supplemental deeds thereto is carried out. 7 For the purpose of this Portfolio, the Manager in consultation with the Investment Manager shall reserve the right to close the Portfolio to new investors on a date determined by the Manager. This will be done in order to be able to manage the Portfolio in accordance with its mandate. The Manager may, once a portfolio has been closed, open that portfolio again to new investors on a date determined by the Manager. To provide investors with a real rate of return through cost effective exposure to a diversified portfolio of government bonds. The Ashburton Bond Tracker Fund invests in bonds based on the value issued by National Treasury and the listed value on the JSE. The Ashburton Bond Tracker aims to track the economic performance of the JSE Government Bond Index (GOVI). The GOVI index comprises all bonds issued by the Republic of South Africa that fall into the top 10 positions of the Composite All Bond Index (ALBI). The fund tracks the component bonds of the index in proportion to the index weightings and returns interest to investors semi-annually with no prescribed fixed investment period. The fund has exposure to government bonds, and as a result risks include, but are not limited to; default risk, interest rate risk, inflation risk, market volatility, economic and political risk."
   },
   {
     "formation_date": "21 May 2009",
     "is_reg_28_comliant": false,
-    "fund_size": 329231671,
+    "fund_size": 329949610,
     "domicile": "South Africa",
     "reporting_currency": "ZAR",
     "jse_code": "ASHINF",
@@ -803,18 +816,19 @@
       "email": "ashburtonquery@investoradmin.co.za"
     },
     "lump_returns": {
-      "three_months": 5.12,
-      "six_months": 7.25,
-      "one_year": 3.56,
-      "three_years": 1.61,
-      "five_years": 2.55,
-      "ten_years": 5.64
-    }
+      "three_months": 5.07,
+      "six_months": 9.02,
+      "one_year": 4.5,
+      "three_years": 2.29,
+      "five_years": 2.6,
+      "ten_years": 5.82
+    },
+    "objectives": "To provide investors with a real rate of return above inflation (CPI), through exposure to a diversified portfolio of government inflation-linked bonds. The Ashburton Inflation ETF invests in bonds based on the value issued by National Treasury and the listed value on the JSE.The Ashburton Inflation ETF aims to track the performance of the Government Inflation-Linked Bonds Index (GILBx). GILBx is a weighted basket of South African government inflation-linked bonds. The ETF tracks the component bonds of the index in proportion to the index weightings. Inflation returns interest to investors quarterly. The initial amount invested in the ETF will increase in line with inflation, while paying real return distributions to investors."
   },
   {
     "formation_date": "1 Nov 2007",
     "is_reg_28_comliant": true,
-    "fund_size": 128631022,
+    "fund_size": 124774942,
     "domicile": "South Africa",
     "reporting_currency": "ZAR",
     "jse_code": "ASMBB1",
@@ -861,18 +875,19 @@
       "email": "ashburtonquery@investoradmin.co.za"
     },
     "lump_returns": {
-      "three_months": 8.16,
-      "six_months": 11.48,
-      "one_year": 7.23,
-      "three_years": 8.2,
-      "five_years": 9.55,
-      "ten_years": 7.82
-    }
+      "three_months": 6.42,
+      "six_months": 9.04,
+      "one_year": 7.27,
+      "three_years": 7.53,
+      "five_years": 9.54,
+      "ten_years": 8.11
+    },
+    "objectives": "The fund seeks to provide investors with a well-diversified exposure to the South African bond market. The fund invests in domestic fixed interest instruments and cash. The fund will be managed actively from both an interest rate and credit risk perspective. The average maturity profile will vary from time to time depending on market conditions. This fund also provides manager diversification which should reduce the volatility relative to single manager funds.The portfolio invests in assets in liquid form, high yielding non-equity securities and interest bearing securities andmay invest in offshore investment. The portfolio's exposure to fixed income investments creates sensitivity tochanges in bond yields. rising interest rates and inflation uncertainty. as well as exposure to economic. political andcredit risk. For credit and income instruments, while unlikely, capital loss may occur due to an event like the defaultof an issuer. This fund has exposure to foreign investment funds and is thereby susceptible to currency risk andpotential macroeconomic and political risks brought about by funds invested across various regions."
   },
   {
     "formation_date": "8 Aug 2001",
     "is_reg_28_comliant": false,
-    "fund_size": 3338903460,
+    "fund_size": 3449086500,
     "domicile": "South Africa",
     "reporting_currency": "ZAR",
     "jse_code": "CAUF",
@@ -925,12 +940,13 @@
       "three_years": null,
       "five_years": null,
       "ten_years": null
-    }
+    },
+    "objectives": "The Citadel SA Bond H4 Fund is a specialist interest bearing portfolio with the primary objective of relatively stable capital values, a reasonable level of liquidity and a return commensurate with the South African All Bond Index (ALBI). The portfolio may invest in money market instruments, government- and corporate bonds as well as fixed income derivatives. The portfolio is permitted to invest in offshore investments as legislation permits."
   },
   {
     "formation_date": "24 Apr 2014",
     "is_reg_28_comliant": false,
-    "fund_size": 68195331,
+    "fund_size": 69010274,
     "domicile": "South Africa",
     "reporting_currency": "ZAR",
     "jse_code": "CBIF2",
@@ -953,8 +969,8 @@
       "exit_fee": 0.0,
       "advisor_annual_fee": 0.0,
       "trailer_fee": 0.0,
-      "total_ter": 0.7,
-      "ter": 0.7,
+      "total_ter": 0.69,
+      "ter": 0.69,
       "performance_fee": "-",
       "annual_management_fee": 0.514,
       "initial_fee": 0.0,
@@ -977,18 +993,19 @@
       "email": "clientservices@bcis.co.za"
     },
     "lump_returns": {
-      "three_months": 6.45,
-      "six_months": 9.0,
-      "one_year": -0.9,
-      "three_years": -2.12,
-      "five_years": -0.42,
+      "three_months": 6.55,
+      "six_months": 11.17,
+      "one_year": 0.13,
+      "three_years": -1.07,
+      "five_years": -0.38,
       "ten_years": null
-    }
+    },
+    "objectives": "The portfolio's investment universe consists of inflation linked bonds, government bonds, corporate bonds and other interest bearing securities, money market instruments, preference shares, property shares and property related securities, nonequity securities and assets in liquid form. The portfolio may invest in participatory interests and other forms of participation in portfolios of collective investment schemes or other similar schemes operated in territories with a regulatory environment which is to the satisfaction of the manager and trustee of a sufficient standard to provide investor protection at least equivalent to that in South Africa and which is consistent with the portfolio's primary objective."
   },
   {
     "formation_date": "14 Jul 1998",
     "is_reg_28_comliant": true,
-    "fund_size": 11576061,
+    "fund_size": 11618454,
     "domicile": "South Africa",
     "reporting_currency": "ZAR",
     "jse_code": "CGMI",
@@ -1035,18 +1052,19 @@
       "email": "comanco@oldmutual.co.za"
     },
     "lump_returns": {
-      "three_months": 7.65,
-      "six_months": 10.03,
-      "one_year": 5.79,
-      "three_years": 7.69,
-      "five_years": 9.28,
-      "ten_years": 7.95
-    }
+      "three_months": 5.54,
+      "six_months": 7.15,
+      "one_year": 5.6,
+      "three_years": 6.98,
+      "five_years": 9.21,
+      "ten_years": 8.28
+    },
+    "objectives": "The fund aims to maximise total returns through a balance of capital growth and income generation. The fund invests in bonds with a particular emphasis on reconstruction and development. The emphasis is on institutions and projects that contribute to the development of South Africa through programmes that have a meaningful social impact and are committed to development, community participation and support. This is a medium to lower risk fund. The fund is exposed to interest rate fluctuations. Long-term bonds are more sensitive to rate changes, while short-term bonds experience more modest price movements. The holding of long and short-dated bonds in the fund is used to reduce these risks."
   },
   {
     "formation_date": "1 Aug 1997",
     "is_reg_28_comliant": false,
-    "fund_size": 3302224502,
+    "fund_size": 3111039737,
     "domicile": "South Africa",
     "reporting_currency": "ZAR",
     "jse_code": "CNSB",
@@ -1093,18 +1111,19 @@
       "email": "clientservice@coronation.com"
     },
     "lump_returns": {
-      "three_months": 7.69,
-      "six_months": 10.46,
-      "one_year": 5.69,
-      "three_years": 7.46,
-      "five_years": 9.74,
-      "ten_years": 8.34
-    }
+      "three_months": 5.82,
+      "six_months": 7.78,
+      "one_year": 5.57,
+      "three_years": 6.66,
+      "five_years": 9.72,
+      "ten_years": 8.69
+    },
+    "objectives": "Seeks to provide investors with a well-diversified exposure to the SA bond market."
   },
   {
     "formation_date": "18 Nov 2020",
     "is_reg_28_comliant": false,
-    "fund_size": 871049907,
+    "fund_size": 949315825,
     "domicile": "South Africa",
     "reporting_currency": "ZAR",
     "jse_code": "DSBNDA",
@@ -1127,8 +1146,8 @@
       "exit_fee": 0.0,
       "advisor_annual_fee": 0.0,
       "trailer_fee": 0.0,
-      "total_ter": 0.0,
-      "ter": 0.0,
+      "total_ter": 2.34,
+      "ter": 2.34,
       "performance_fee": "-",
       "annual_management_fee": 0.0,
       "initial_fee": 0.0,
@@ -1157,12 +1176,13 @@
       "three_years": null,
       "five_years": null,
       "ten_years": null
-    }
+    },
+    "objectives": "3.1. The investment objective of the portfolio is to achieve moderate outperformance of the JSE ASSA All Bond Index (ALBI) over the medium term by considering a number of strategies across multiple time horizons and strategically choosing investments within this broader scope.3.2. To achieve the above objective the portfolio will strategically invest primarily in South African debt instruments including public, parastatal, municipal and corporate bonds, inflation linked bonds, loan stock, debentures, fixed deposits and money market instruments, subject to the conditions and/or limits prescribed by the Act. A minimum of 20% of the portfolio's market value will be invested in instruments that are constituents of the ALBI or similar/equivalent instruments. The portfolio will have a modified duration band of -1 to +3 years around the ALBI.3.3. Debt Instruments held by the portfolio will be appropriately diversified and will be primarily those issued or guaranteed by a government or those with a credit rating of BBB- (or equivalent) or higher at the time of inclusion in the portfolio. National credit ratings will be used where available.3.4. The portfolio may also include unlisted securities and listed and unlisted financial instruments as defined, and subject to the conditions and/or limits prescribed by the Act.3.5. Nothing in this supplemental deed shall preclude the manager from varying the ratio of instruments within regulatory limits, to maximize capital growth and investment potential in a changing economic environment or market conditions or to meet the requirements, if applicable, of any exchange formally recognised in terms of legislation and from retaining cash or placing cash on deposit in terms of the deed and this supplemental deed; provided that the manager shall ensure that the aggregate value of the assets comprising the unit portfolio consists of securities and cash of the aggregate value required from time to time by the Act.3.6. For the purpose of this portfolio, the manager shall reserve the right to close the portfolio to new investors on a date determined by the manager. This will be done in order to be able to manage the fund in accordance with its mandate. The manager may, once a portfolio has been closed, open that portfolio again to new investors on a date determined by the manager.3.7. The trustee shall ensure that the investment policy set out in this supplemental deed is carried out."
   },
   {
     "formation_date": "20 Apr 2017",
     "is_reg_28_comliant": true,
-    "fund_size": 162765967,
+    "fund_size": 164057694,
     "domicile": "South Africa",
     "reporting_currency": "ZAR",
     "jse_code": "FPPA1",
@@ -1209,18 +1229,19 @@
       "email": "info@fairtree.com"
     },
     "lump_returns": {
-      "three_months": 8.44,
-      "six_months": 11.59,
-      "one_year": 7.36,
-      "three_years": 8.22,
+      "three_months": 6.01,
+      "six_months": 8.29,
+      "one_year": 7.09,
+      "three_years": 7.74,
       "five_years": null,
       "ten_years": null
-    }
+    },
+    "objectives": "The Fairtree ALBI Plus Prescient Fund will aim to deliver a return of ALBI plus 1%, after fees, which comprises a reasonable level of income as well as capital performance relative to the benchmark. Due to the nature of the fund, the majority of the returns through the interest rate cycle will be dominated via income distribution. In order to achieve the objective the fund will invest in interest bearing and non-equity securities (including, but not limited to, bonds, cash deposits, money market and other interest-bearing securities) as well listed and unlisted financial instruments in line with the conditions as determined by legislation from time to time.The underlying investments are actively managed and will change over time to reflect the change in interest rates. The portfolio will predominately invest in South African markets, but is however permitted to include investments in offshore jurisdictions subject to the investment conditions determined by legislation from time to time. The portfolio will be subject to the Prudential Investment Guidelines for South African Retirement Funds, being Regulation 28 of the Pension Funds Act, or such other legislation published from time to time. The portfolio may apart from assets in liquid form also include participatory interests, exchange traded funds or any other form of participation in portfolios of collective investment schemes or other similar schemes.Where the aforementioned schemes are operated in territories other than in South Africa, participatory interests or any other form of participation in these schemes will be included in the portfolio only where the regulatory environment is to the satisfaction of the manager and trustee and is of a sufficient standard to provide investor protection at least equivalent to that in South Africa.Nothing in the supplemental deed shall preclude the manager from varying the ratios of securities, to maximise capital growth and investment potential in changing economic environments or market conditions or to meet the requirements, if applicable, of any exchange formally recognised in terms of legislation and from retaining cash or placing cash on deposit in terms of the Deed and any Supplemental Deeds thereto; provided that the manager shall ensure that the aggregate value of the assets comprising the portfolio shall consist of securities of the aggregate value required from time to time by the Act."
   },
   {
     "formation_date": "1 Jul 2014",
     "is_reg_28_comliant": true,
-    "fund_size": 2669427363,
+    "fund_size": 2696361418,
     "domicile": "South Africa",
     "reporting_currency": "ZAR",
     "jse_code": "MDBFA",
@@ -1267,18 +1288,19 @@
       "email": "contact@stanlib.com"
     },
     "lump_returns": {
-      "three_months": 7.2,
-      "six_months": 10.16,
-      "one_year": 6.97,
-      "three_years": 7.81,
-      "five_years": 9.18,
+      "three_months": 5.24,
+      "six_months": 7.15,
+      "one_year": 6.71,
+      "three_years": 7.04,
+      "five_years": 9.1,
       "ten_years": null
-    }
+    },
+    "objectives": "The investment objective of the MELVILLE DOUGLAS STANLIB BOND FUND is to achieve capital growth and income generation by investing in longer term, investment grade fixed interest securities.The portfolio will be a bond portfolio.   In selecting the securities normally to be included in the portfolio the manager shall seek to achieve an investment medium for investors, which shall have as its primary objective exposure to long term fixed interest securities for the purpose of capital growth and income generation. The portfolio will be managed in compliance with the Prudential Investment Guidelines that are applicable to retirement funds from time to time.To achieve the investment objective the securities normally to be included in the portfolio will consist of a spread of gilts, semi gilts, loan stock, debentures, debenture bonds, non-equity securities, notes and assets in liquid form and any other securities, which are consistent with the portfolio's investment policy. Interest bearing instruments in the currency of a country, other than the Republic of South Africa, may only be included in this portfolio if it complies with a grading A and higher from Standard and Poor and/or Moodys Investors Services Ltd, or such other rating agencies as defined in the Act form time to time, provided further that if the grading of an instrument differs between rating agencies, the lower of the two gradings will apply. The MELVILLE DOUGLAS STANLIB BOND FUND may from time to time invest in both listed and unlisted financial instruments, in accordance with the provisions of the Collective Investment Schemes Control Act, No. 45 of 2002, and the Regulations thereto, as amended from time to time, in order to achieve the portfolio's investment objective.The trustee shall ensure that the investment policy as set out in this supplemental deed is carried out: Provided that nothing contained in this supplemental deed, the deed and any supplemental deeds thereto shall preclude the manager from retaining cash in the portfolio and/or placing cash on deposit in terms of the deed, the supplemental deeds thereto, and this supplemental deed. For the purpose of this portfolio, the manager shall reserve the right to close the portfolio to new investors on a date determined by the manager. This will be done in order to be able to manage the portfolio in accordance with its mandate. The manager may, once a portfolio has been closed, open that portfolio again to new investors on a date determined by the manager.Nothing contained in this supplemental deed shall preclude the manager from varying the ratios of securities to best position the portfolio to achieve its objective in a changing economic environment or market conditions or to meet the requirements, if applicable, of any exchange recognised in terms of the Act and from retaining cash or placing cash on deposit in terms of the deed and any supplemental deeds thereto.The trustee shall ensure that the investment policy set out in this supplemental deed is carried out."
   },
   {
     "formation_date": "15 Feb 1995",
     "is_reg_28_comliant": false,
-    "fund_size": 7916973731,
+    "fund_size": 7646033206,
     "domicile": "South Africa",
     "reporting_currency": "ZAR",
     "jse_code": "RMGF",
@@ -1325,18 +1347,19 @@
       "email": "ci.Clientservice@momentum.co.za"
     },
     "lump_returns": {
-      "three_months": 7.87,
-      "six_months": 10.86,
-      "one_year": 6.99,
-      "three_years": 8.38,
-      "five_years": 9.61,
-      "ten_years": 7.61
-    }
+      "three_months": 5.84,
+      "six_months": 7.86,
+      "one_year": 6.77,
+      "three_years": 7.6,
+      "five_years": 9.55,
+      "ten_years": 7.96
+    },
+    "objectives": "In order to achieve these objectives, the investments normally to be included in the Momentum Bond Fund will comprise a combination of securities, non-equity securities, gilts, semi gilts and assets in liquidform. The portfolio will be limited to a combination of gilts and interest bearing securities (including loan stock, semi-gilts financially sound debentures, debenture bonds and notes), cash, and any other assetsof a similar nature that offer high returns on capital and income and any other securities that the Act or the Registrar may, from time to time allow, all to be acquired at fair market prices. The manager may from time to time invest in participatory interests or any other form of participation in portfolios of collective  investment schemes or other similar collective investment schemes as the Act may allow from time to time, and which are consistent with the portfolio's investment policy. Where the aforementioned schemes are operated in territories other than South Africa, participatory interests or any other form of participation in portfolios of these schemes will be included in the portfolio only where the regulatory environment is, to the satisfaction of the manager and the trustee, of sufficient standard to provide investor protection at least equal to that in South Africa."
   },
   {
     "formation_date": "30 Jul 1999",
     "is_reg_28_comliant": false,
-    "fund_size": 3175232644,
+    "fund_size": 3190669730,
     "domicile": "South Africa",
     "reporting_currency": "ZAR",
     "jse_code": "VELG",
@@ -1383,18 +1406,19 @@
       "email": "-"
     },
     "lump_returns": {
-      "three_months": 7.16,
-      "six_months": 9.89,
-      "one_year": 9.2,
-      "three_years": 8.92,
-      "five_years": 10.31,
-      "ten_years": 8.19
-    }
+      "three_months": 5.39,
+      "six_months": 7.03,
+      "one_year": 9.08,
+      "three_years": 8.37,
+      "five_years": 10.27,
+      "ten_years": 8.47
+    },
+    "objectives": "The portfolio is suitable for investors who require specific exposure to the South African bond market as part of their overall investment strategy."
   },
   {
     "formation_date": "27 Jan 2012",
     "is_reg_28_comliant": true,
-    "fund_size": 2332115708,
+    "fund_size": 2344736123,
     "domicile": "South Africa",
     "reporting_currency": "ZAR",
     "jse_code": "NFGOVI",
@@ -1441,18 +1465,19 @@
       "email": "-"
     },
     "lump_returns": {
-      "three_months": 7.81,
-      "six_months": 10.16,
-      "one_year": 8.1,
-      "three_years": 8.07,
-      "five_years": 9.45,
+      "three_months": 6.28,
+      "six_months": 9.39,
+      "one_year": 8.09,
+      "three_years": 7.87,
+      "five_years": 9.57,
       "ten_years": null
-    }
+    },
+    "objectives": "1. The investment policy of the portfolio shall be to - 1.1. track the Index as closely as possible, to the fullest extent possible, by - 1.1.1. buying only securities in the Index weightings in which they have been included in the Index; and 1.1.2. selling only securities which are excluded from the Index from time to time as a result of the monthly Index reviews or corporate actions, so as to ensure that at all times the portfolio holds constituent securities in the same weightings as they are included in the Index; and 1.2. as a further objective, to manage the securities held by the portfolio to generate income for the benefit of investors. 2. The portfolio shall not buy or sell securities for the purpose of making a profit nor for any purpose other than tracking the Index. 3. Investors may obtain participatory interests in the portfolio on the secondary market or by subscribing for new participatory interests in the portfolio on the primary market. In order to achieve this object the manager may, subject to the Act and the Deed, create and issue an unlimited number of participatory interests in the portfolio. 4. The portfolio will be passively managed in that the manager will not buy and sell securities based on economic, financial and/or market analysis but rather, will buy and sell securities solely for the purpose of ensuring that the portfolio tracks the Index. As such the investment objective and style of the portfolio will be full replication of the Index. 5. The composition of the portfolio will be adjusted periodically to conform to changes in the composition and weightings of the securities in the Index so as to ensure that the composition and weightings of the portfolio are a reflection of the composition and weighting of the securities contained in the Index. 6. The manager shall further be entitled, in its discretion and only on a temporary basis, to employ such other investment techniques and instruments as will most effectively give effect to the object or the investment policies of the portfolio, subject to the provisions of the Deed and the Act from time to time. 7. Assets in liquid form will form a minor part of the Portfolio's assets. 8. The portfolio's ability to replicate the price and yield performance of the Index will be affected by the costs and expenses incurred by the portfolio. 9. Since the manager will not be distributing to investors any income (including coupons) in the portfolio, the manager will disclose in the portfolio supplements that such income will be reinvested in the portfolio. 10. Any material change in the investment policy of the portfolio shall constitute an amendment of the deed, and shall be subject to the provisions of clause 59 of the deed, in which event investors shall be given reasonable notice to enable them to redeem their participatory interest prior to implementation of the change. 11. The manager shall in managing the assets of the portfolio ensure that it is aligned with limits as prescribed by Regulation 28 of the Pension Funds Act, 24 of 1956, to the extent allowed by the Act."
   },
   {
     "formation_date": "27 Jan 2012",
     "is_reg_28_comliant": true,
-    "fund_size": 98330846,
+    "fund_size": 99385552,
     "domicile": "South Africa",
     "reporting_currency": "ZAR",
     "jse_code": "NFILBI",
@@ -1499,18 +1524,19 @@
       "email": "-"
     },
     "lump_returns": {
-      "three_months": 4.87,
-      "six_months": 7.02,
-      "one_year": 3.38,
-      "three_years": 1.59,
-      "five_years": 2.54,
+      "three_months": 4.82,
+      "six_months": 8.82,
+      "one_year": 4.38,
+      "three_years": 2.28,
+      "five_years": 2.6,
       "ten_years": null
-    }
+    },
+    "objectives": "To track the Barclays Capital/Absa Capital South African Inflation-Linked Bond Total Return Index The income generated by the portfolio (Ordinary Dividends, Manufactured Dividends, Scrip Lending Fee coupons and Interests) will first be utilised to cover all the allowable costs and the balance will be reinvested into the portfolio."
   },
   {
     "formation_date": "27 Jun 2002",
     "is_reg_28_comliant": true,
-    "fund_size": 292544533,
+    "fund_size": 288286195,
     "domicile": "South Africa",
     "reporting_currency": "ZAR",
     "jse_code": "OBOFD",
@@ -1557,18 +1583,19 @@
       "email": "info@oasiscrescent.com"
     },
     "lump_returns": {
-      "three_months": 7.28,
-      "six_months": 9.56,
-      "one_year": 7.44,
-      "three_years": 8.12,
-      "five_years": 9.29,
-      "ten_years": 7.97
-    }
+      "three_months": 5.48,
+      "six_months": 7.15,
+      "one_year": 7.2,
+      "three_years": 7.7,
+      "five_years": 9.26,
+      "ten_years": 8.21
+    },
+    "objectives": "The objective of the Oasis Bond Fund is to provide investors with exposure to long-term fixed-interest securities for the purpose of sustained income generation. The Oasis Bond Fund therefore seeks to invest in high quality government and corporate debt instruments that will provide a reliable income stream over time."
   },
   {
     "formation_date": "30 Dec 1994",
     "is_reg_28_comliant": true,
-    "fund_size": 1359194748,
+    "fund_size": 1396504914,
     "domicile": "South Africa",
     "reporting_currency": "ZAR",
     "jse_code": "OMGI",
@@ -1615,18 +1642,19 @@
       "email": "unittrusts@oldmutual.com"
     },
     "lump_returns": {
-      "three_months": 8.03,
-      "six_months": 10.62,
-      "one_year": 6.79,
-      "three_years": 7.91,
-      "five_years": 9.3,
-      "ten_years": 7.7
-    }
+      "three_months": 5.93,
+      "six_months": 7.59,
+      "one_year": 6.62,
+      "three_years": 7.26,
+      "five_years": 9.23,
+      "ten_years": 8.06
+    },
+    "objectives": "The fund aims to offer a combination of capital growth and high income yields. Capital growth is primarily achieved by actively taking advantage of interest rate cycles.This fund is suited to astute investors who have a particular view on relative asset class performance. The investor understands the impact of the interest rate cycle and accepts this risk in exchange for moderate long-term growth potential. The fund invests across the full spectrum of the yield curve. It invests in public and private sector bonds and deposits, with at least 50% invested in bonds with an effective government guarantee.The fund is not required to be Regulation 28 compliant in terms of its Deed, but the fund manager is mandated to comply with Regulation 28 on a day-to-day basis."
   },
   {
     "formation_date": "14 Jul 2015",
     "is_reg_28_comliant": false,
-    "fund_size": 3459565647,
+    "fund_size": 3470326437,
     "domicile": "South Africa",
     "reporting_currency": "ZAR",
     "jse_code": "PMBFA",
@@ -1673,18 +1701,19 @@
       "email": "clientservices@bcis.co.za"
     },
     "lump_returns": {
-      "three_months": 8.11,
-      "six_months": 10.43,
-      "one_year": 9.3,
-      "three_years": 8.97,
-      "five_years": 10.45,
+      "three_months": 6.59,
+      "six_months": 9.62,
+      "one_year": 9.25,
+      "three_years": 8.57,
+      "five_years": 10.53,
       "ten_years": null
-    }
+    },
+    "objectives": "Investments to be included in the portfolio may, apart from assets in liquid form, consists of participatory interests and other forms of participation of local and global collective investment schemes, or other similar schemes operated in territories with a regulatory environment which is to the satisfaction of the manager and trustee of a sufficient standard to provide investor protection at least equivalent to that in South Africa and which is consistent with the portfolio's primary objective, investing in liquid form, debentures, bonds, fixed deposits, money market instruments and other interestbearing securities. The underlying portfolios may invest in short, intermediate and longdated securities and the portfolio's underlying exposure will be predominately bond investments."
   },
   {
     "formation_date": "1 Jul 2003",
     "is_reg_28_comliant": false,
-    "fund_size": 1123994610,
+    "fund_size": 1135195435,
     "domicile": "South Africa",
     "reporting_currency": "ZAR",
     "jse_code": "PBQF",
@@ -1731,18 +1760,19 @@
       "email": "info@prescient.co.za"
     },
     "lump_returns": {
-      "three_months": 9.07,
-      "six_months": 10.24,
-      "one_year": 4.89,
-      "three_years": 6.48,
-      "five_years": 8.69,
-      "ten_years": 7.18
-    }
+      "three_months": 8.03,
+      "six_months": 11.02,
+      "one_year": 5.58,
+      "three_years": 6.54,
+      "five_years": 8.89,
+      "ten_years": 7.53
+    },
+    "objectives": "INVESTMENT AND RETURN OBJECTIVEThe Fund aims to generate returns above the JSE All Bond Index over time, utilising active bond management combined with strategies which aim to reduce risk over time.INVESTMENT PROCESSThe Fund invests in cash and high-quality capital market instruments. A number of techniques are used togenerate returns, including duration management, yield enhancements via credit exposure and riskmanagement strategies, where these strategies are designed to provide downside protection."
   },
   {
     "formation_date": "28 Jul 2016",
     "is_reg_28_comliant": false,
-    "fund_size": 1383612275,
+    "fund_size": 1436972499,
     "domicile": "South Africa",
     "reporting_currency": "ZAR",
     "jse_code": "PFFA2",
@@ -1789,18 +1819,19 @@
       "email": "info@prescient.co.za"
     },
     "lump_returns": {
-      "three_months": 3.51,
-      "six_months": 4.71,
-      "one_year": 7.08,
-      "three_years": 8.73,
+      "three_months": 3.02,
+      "six_months": 4.45,
+      "one_year": 6.72,
+      "three_years": 8.63,
       "five_years": null,
       "ten_years": null
-    }
+    },
+    "objectives": "The Prescient Flexible Fixed Interest Fund will aim to preserve capital and maximize income returns without placing undue risk on the capital of the investor. In order to achieve this objective the fund will invest in a diversified range of fixed interest securities, including but not limited to, local and foreign government, semi-government, corporate bonds, fixed deposits, money market and other interest-bearing securities of differing terms to maturity, taking into account changes in interest rates, credit risk and liquidity.  The allocation may span across the short and longer dated interest bearing security markets and will not have any duration limitation. This will necessitate actively switching out of longer dated interest bearing securities into shorter dated interest bearing securities and vice versa depending on market valuations. This strategy will result in a larger tracking error relative to the Benchmark. Investment strategies may include interest rate or duration positions, credit yield enhancement and the use of derivatives strategies. The Fund will be mark-to-marketed on a daily basis.The portfolio is permitted to invest in listed and unlisted financial instruments in line with the conditions as determined by legislation from time to time. The portfolio will predominately invest in South African markets, but is however permitted to include investments in offshore jurisdictions subject to the investment conditions determined by the Registrar from time to time.The portfolio will be subject to the Prudential Investment Guidelines for South African Retirement Funds, being Regulation 28 of the Pension Funds Act, or such other Legislation published from time to time. The portfolio may apart from assets in liquid form also include participatory interests or any other form of participation in portfolios of collective investment schemes or other similar schemes. Where the aforementioned schemes are operated in territories other than in South Africa, participatory interests or any other form of participation in these schemes will be included in the portfolio only where the regulatory environment is to the satisfaction of the manager and trustee and is of a sufficient standard to provide investor protection at least equivalent to that in South Africa.Nothing in the supplemental deed shall preclude the Manager from varying the ratios of securities, to maximise capital growth and investment potential in changing economic environments or market conditions or to meet the requirements, if applicable, of any exchange formally recognised in terms of legislation and from retaining cash or placing cash on deposit in terms of the Deed and any Supplemental Deeds thereto; provided that the Manager shall ensure that the aggregate value of the assets comprising the portfolio shall consist of securities of the aggregate value required from time to time by the Act. The Trustee shall ensure that the investment policy set out in this supplemental deed, the Deed and in all Supplemental Deeds thereto is carried out. For the purpose of this portfolio, the manager in consultation with the Investment Manager shall reserve the right to close the portfolio to new investors on a date determined by the manager.  This will be done in order to be able to manage the portfolio in accordance with its mandate.  The manager may, once a portfolio has been closed, open that portfolio again to new investors on a date determined by the manager."
   },
   {
     "formation_date": "1 Nov 2000",
     "is_reg_28_comliant": true,
-    "fund_size": 264259498,
+    "fund_size": 267409817,
     "domicile": "South Africa",
     "reporting_currency": "ZAR",
     "jse_code": "PHYB",
@@ -1823,8 +1854,8 @@
       "exit_fee": 0.0,
       "advisor_annual_fee": 0.0,
       "trailer_fee": 0.0,
-      "total_ter": 0.91,
-      "ter": 0.9,
+      "total_ter": 0.9,
+      "ter": 0.89,
       "performance_fee": "-",
       "annual_management_fee": 0.69,
       "initial_fee": 0.0,
@@ -1847,18 +1878,19 @@
       "email": "info@prudential.co.za"
     },
     "lump_returns": {
-      "three_months": 8.82,
-      "six_months": 11.81,
-      "one_year": 4.75,
-      "three_years": 7.27,
-      "five_years": 9.01,
-      "ten_years": 7.41
-    }
+      "three_months": 6.67,
+      "six_months": 8.83,
+      "one_year": 4.72,
+      "three_years": 6.57,
+      "five_years": 8.94,
+      "ten_years": 7.76
+    },
+    "objectives": "The objective of the fund is to maximise income while securing a steady growth of capital. This is achieved by investing in a diversified portfolio of high-yield bonds in the South African market. This fund is suitable for individuals that require a high level of income from their capital investment with relatively low risk."
   },
   {
     "formation_date": "10 Apr 2014",
     "is_reg_28_comliant": false,
-    "fund_size": 3289816540,
+    "fund_size": 3304092717,
     "domicile": "South Africa",
     "reporting_currency": "ZAR",
     "jse_code": "SABIF",
@@ -1905,13 +1937,14 @@
       "email": "rickm@satrix.co.za"
     },
     "lump_returns": {
-      "three_months": 7.68,
-      "six_months": 9.99,
-      "one_year": 7.69,
-      "three_years": 8.2,
-      "five_years": 9.49,
+      "three_months": 6.12,
+      "six_months": 9.18,
+      "one_year": 7.66,
+      "three_years": 7.99,
+      "five_years": 9.59,
       "ten_years": null
-    }
+    },
+    "objectives": "The investment objective of the Satrix Bond Index Fund is to achieve a return which will equate to the annual return of the portfolio benchmark which is the BEASSA All Bond Index. This will be a passively managed portfolio which will track the BEASSA All Bond Index. This portfolio will invest in assets in liquid form, and in high yielding non-equity securities and interest bearing securities including but not limited to public, parastatel, municipal and corporate bonds, inflation linked bonds, loan stock, debentures, fixed deposits and money market instruments. When investing in derivatives, the Manager will adhere to prevailing derivative regulations. The portfolio manager will invest in derivatives for cash flow management purposes, as this is more cost effective, and to enable the investment manager to achieve the objective of tracking the BEASSA All Bond Index more effectively."
   },
   {
     "formation_date": "3 Mar 2017",
@@ -1963,18 +1996,19 @@
       "email": "rickm@satrix.co.za"
     },
     "lump_returns": {
-      "three_months": 4.97,
-      "six_months": 6.95,
-      "one_year": 3.58,
-      "three_years": 1.88,
+      "three_months": 4.95,
+      "six_months": 8.66,
+      "one_year": 4.46,
+      "three_years": 2.55,
       "five_years": null,
       "ten_years": null
-    }
+    },
+    "objectives": "The mandate of the Satrix ILBI Portfolio (\"Satrix ILBI\") is to track, as closely as possible, the value of the S&P South Africa Sovereign Inflation-Linked Bond 1+ Year Index. Satrix ILBI is an index tracking fund, registered as a Collective Investment Scheme, and is also listed on the Johannesburg Stock Exchange asan Exchange Traded Fund. Satrix ILBI provides investors with Inflation Linked Bond exposure as an alternative asset class. In accordance with the investment policy of Satrix ILBI, all income received from instruments comprising the index, net of cost is re-invested on behalf of investors through the purchase ofinstruments comprising the S&P South Africa Sovereign Inflation-linked Bond 1+ Year Index in line with total return index methodology, thereby increasing the net asset value of each Satrix ILBI security. In order to reduce costs and minimise tracking error, Satrix ILBI may engage in scrip lending activities."
   },
   {
     "formation_date": "7 May 2020",
     "is_reg_28_comliant": false,
-    "fund_size": 150517125,
+    "fund_size": 337332138,
     "domicile": "South Africa",
     "reporting_currency": "ZAR",
     "jse_code": "STXGOV",
@@ -2021,18 +2055,19 @@
       "email": "rickm@satrix.co.za"
     },
     "lump_returns": {
-      "three_months": 7.07,
-      "six_months": 8.99,
+      "three_months": 5.68,
+      "six_months": 9.54,
       "one_year": null,
       "three_years": null,
       "five_years": null,
       "ten_years": null
-    }
+    },
+    "objectives": "The mandate of the Satrix SA Bond Satrix ETF is to track, as closely as possible, the value of the S&P South Africa Sovereign Bond 1+ Year Index.  The Satrix SA Bond ETF is an index tracking fund, registered as a Collective Investment Scheme, and is also listed on the Johannesburg Stock Exchange as an Exchange Traded Fund. The Satrix SA Bond ETF provides investors with South Africa Government Bond exposure as an asset class. In accordance with the investment policy of the Satrix SA Bond, all income received from instruments comprising the index, net of cost is re-invested on behalf of investors through the purchase of instruments comprising the S&P South Africa Sovereign Bond 1+ Year Index in line with total return index methodology, thereby increasing the net asset value of each Satrix SA Bond security. In order to reduce costs and minimise tracking error, the Satrix SA Bond may engage in scrip lending activities."
   },
   {
     "formation_date": "31 Jul 1996",
     "is_reg_28_comliant": false,
-    "fund_size": 2085058155,
+    "fund_size": 2111963586,
     "domicile": "South Africa",
     "reporting_currency": "ZAR",
     "jse_code": "SNGF",
@@ -2079,18 +2114,19 @@
       "email": "-"
     },
     "lump_returns": {
-      "three_months": 7.88,
-      "six_months": 10.99,
-      "one_year": 6.76,
-      "three_years": 8.25,
-      "five_years": 9.73,
-      "ten_years": 7.8
-    }
+      "three_months": 6.53,
+      "six_months": 9.41,
+      "one_year": 6.69,
+      "three_years": 7.96,
+      "five_years": 9.69,
+      "ten_years": 8.17
+    },
+    "objectives": "The fund offers unitholders an optimum overall yield comprising both capital growth and income. The fund invests in public and private sector bonds and deposits.This fund is suited for institutions and individuals requiring investment growth via the capital market with a high income.Why Choose This Fund?ΓùÅ┬á The fund provides an income stream in the form of half-yearly income payments and is therefore suitable as a core fund for persons who wish to invest in the bond market though a diversified portfolio and/or top up their income at six-monthly intervals. ΓùÅ┬á The prices may fluctuate depending upon market rates ie, if rates rise, prices go down and if rates drop, prices go up. ΓùÅ┬á The fund is actively managed in order to outperform the All Bond index.  Additional Fund InformationΓùÅ┬á The fund's name changed on 1 April 2004. The fund was previously called the Sanlam Gilt Fund. ΓùÅ┬á This fund is also available via certain LISPs (Linked Investment Services Providers), who levy their own fees. - Total Expense Ratio (TER): This fund (retail class) has a TER of 1.19%. For the period from 1 January 2007 to 31 March 2007 1.19% of the average net asset value of the portfolio were incurred as charges, levies and fees related to the management of the portfolio. The ratio does not include the cost of acquiring assets. A higher TER does not necessarily imply a poor return, nor does a low TER imply a good return. The current TER can not be regarded as an indication of future TERs."
   },
   {
     "formation_date": "13 Mar 2000",
     "is_reg_28_comliant": true,
-    "fund_size": 5062974297,
+    "fund_size": 5303783452,
     "domicile": "South Africa",
     "reporting_currency": "ZAR",
     "jse_code": "LBBF",
@@ -2137,18 +2173,19 @@
       "email": "contact@stanlib.com"
     },
     "lump_returns": {
-      "three_months": 8.16,
-      "six_months": 11.67,
-      "one_year": 9.06,
-      "three_years": 8.72,
-      "five_years": 10.42,
-      "ten_years": 8.42
-    }
+      "three_months": 6.25,
+      "six_months": 8.7,
+      "one_year": 9.01,
+      "three_years": 7.94,
+      "five_years": 10.36,
+      "ten_years": 8.78
+    },
+    "objectives": "The STANLIB Bond Fund aims to achieve capital growth and income generation by investing in long-term fixed-interest securities. These securities will normally consist of a spread of gilts, semi-gilts, loan stock, debentures, debenture bonds, approved securities, notes and liquid assets and any other securities which are consistent with the portfolio's investment policy. This portfolio may not have any direct and/or indirect foreign exposure."
   },
   {
     "formation_date": "20 Feb 2015",
     "is_reg_28_comliant": false,
-    "fund_size": 127802848,
+    "fund_size": 136211084,
     "domicile": "South Africa",
     "reporting_currency": "ZAR",
     "jse_code": "SYABA",
@@ -2195,18 +2232,19 @@
       "email": "info@sygnia.co.za"
     },
     "lump_returns": {
-      "three_months": 7.54,
-      "six_months": 10.67,
-      "one_year": 7.68,
-      "three_years": 8.35,
-      "five_years": 9.49,
+      "three_months": 5.63,
+      "six_months": 7.71,
+      "one_year": 7.43,
+      "three_years": 7.59,
+      "five_years": 9.43,
       "ten_years": null
-    }
+    },
+    "objectives": "The composition of the Portfolio will be compared to the composition of the Index on a daily basis, taking into account any new investment contributions or withdrawals to and from the Portfolio, the receipt of any coupon payments for reinvestment, the effect of any corporate actions and its impact on the composition of the Portfolio relative to that of the Index. A tracking error minimising algorithm is used to determine the least number of transactions required to keep the Portfolio's returns aligned as closely as practically possible to the Index's returns while at the same time keeping the trading costs in the Portfolio to a minimum. The tracking error will never exceed 2% (two percent) on an annual basis. All cash movements and instrument events are taken into account daily in order to re-align the Portfolio to match the returns of the Index as closely as practically possible.  The portfolio will invest in assets in liquid form, and in high yielding non-equity securities and interest bearing securities including but not limited to public, parastatel, municipal and corporate bonds, inflation linked bonds, loan stock, debentures, fixed deposits and money market instruments.  When investing in derivatives, the Manager will adhere to prevailing derivative regulations.  The portfolio manager will invest in derivatives for cash flow management purposes, as this is more cost effective, and to enable the investment manager to achieve the objective of tracking the Index more effectively."
   },
   {
     "formation_date": "26 Aug 2019",
     "is_reg_28_comliant": false,
-    "fund_size": 114778826,
+    "fund_size": 118449449,
     "domicile": "South Africa",
     "reporting_currency": "ZAR",
     "jse_code": "SEAFA",
@@ -2253,18 +2291,19 @@
       "email": "info@sygnia.co.za"
     },
     "lump_returns": {
-      "three_months": 7.71,
-      "six_months": 11.08,
-      "one_year": 8.27,
+      "three_months": 5.7,
+      "six_months": 7.94,
+      "one_year": 7.95,
       "three_years": null,
       "five_years": null,
       "ten_years": null
-    }
+    },
+    "objectives": "No Fund Objective is available for this fund"
   },
   {
     "formation_date": "3 Aug 2020",
     "is_reg_28_comliant": false,
-    "fund_size": 53693489,
+    "fund_size": 53993604,
     "domicile": "South Africa",
     "reporting_currency": "ZAR",
     "jse_code": "TERBB1",
@@ -2311,18 +2350,19 @@
       "email": "-"
     },
     "lump_returns": {
-      "three_months": 7.5,
+      "three_months": 5.47,
       "six_months": null,
       "one_year": null,
       "three_years": null,
       "five_years": null,
       "ten_years": null
-    }
+    },
+    "objectives": "No Fund Objective is available for this fund"
   },
   {
     "formation_date": "16 Jul 2020",
     "is_reg_28_comliant": true,
-    "fund_size": 121872487,
+    "fund_size": 236198709,
     "domicile": "South Africa",
     "reporting_currency": "ZAR",
     "jse_code": "VUNFDA",
@@ -2345,8 +2385,8 @@
       "exit_fee": 0.0,
       "advisor_annual_fee": 0.0,
       "trailer_fee": 0.0,
-      "total_ter": 0.61,
-      "ter": 0.61,
+      "total_ter": 0.64,
+      "ter": 0.64,
       "performance_fee": "-",
       "annual_management_fee": 0.58,
       "initial_fee": 0.0,
@@ -2369,12 +2409,13 @@
       "email": "clientservices@bcis.co.za"
     },
     "lump_returns": {
-      "three_months": 8.33,
-      "six_months": null,
+      "three_months": 6.25,
+      "six_months": 8.8,
       "one_year": null,
       "three_years": null,
       "five_years": null,
       "ten_years": null
-    }
+    },
+    "objectives": "The Vunani BCI Bond Fund aims to achieve an investment medium for investors, which shall have as its primary objective maximum total return by primarily investing in bonds. The portfolio will be managed in compliance with prudential investment guidelines for retirement funds in South Africa to the extent allowed for by the Act. Investments to be included in the portfolio will comprise of liquid form and a combination gilts and interest bearing securities, including loan stock, semi-gilts, notes, debentures, debenture bonds, preference shares, money market instruments, bonds, corporate debt, convertible equities and non-equity securities. The portfolio may also invest in participatory interests or any other form of participation in portfolios of collective investment schemes or other similar collective investment schemes as the Act may allow from time to time, and which are consistent with the portfolio's investment policy. Where the aforementioned schemes are operated in territories other than South Africa, participatory interests or any other form of participation in portfolios of these schemes will be included in the portfolio only where the regulatory environment is, to the satisfaction of the manager and the trustee, of sufficient standard to provide investor protection at least equal to that in South Africa. The portfolio may from time to time invest in listed and unlisted financial instruments, in accordance with the provisions of the Act, and the Regulations thereto, as amended from time to time, in order to achieve the portfolio's investment objective. The Trustee shall ensure that the investment policy set out in this Supplemental Deed is carried out."
   }
 ]

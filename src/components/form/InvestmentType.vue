@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container">
     <label
       class="block text-sm font-medium text-gray-700"
       for="saving-goal"
@@ -8,24 +8,27 @@
       id="saving-goal"
       name="saving-goal"
       v-model="questions.savingReason"
-      class="mt-1 ml-8 block w-10/12 py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+      class="block w-10/12 py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
     >
       <option value="retirement">Retirement</option>
       <option value="childs_education">Childs Education</option>
       <option value="other">Other</option>
     </select>
 
-    <div v-if="reasonNeeded">
+    <div
+      id="reason"
+      v-if="reasonNeeded"
+    >
       <label for="saving-reason">Please specify</label>
       <input
         id="saving-reason"
-        class="mt-1 ml-8 block w-10/12 py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+        class="block py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
         name="saving-reason"
         v-model="questions.reasonStated"
       />
     </div>
     <button
-      class="mt-1 inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+      class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
       @click.prevent="nextPage"
       v-if="canMoveOn"
     >Next</button>
@@ -45,6 +48,7 @@ export default {
       return false;
     },
     moveOn: null,
+    prevPage: null,
   },
   setup(props, { emit }) {
     const questions = reactive({
@@ -71,7 +75,11 @@ export default {
     function nextPage() {
       emit('moveOn', { canMoveOn });
     }
+    function prevPage() {
+      emit('prevPage', {});
+    }
     return {
+      prevPage,
       questions,
       canMoveOn,
       processReason,
@@ -82,5 +90,28 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
+.container {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  width: 100vw;
+  padding: 20vw;
+}
+#reason {
+  width: 100%;
+}
+#reason input {
+  width: 100%;
+}
+#saving-goal {
+  /*text-align: center;*/
+  display: flex;
+  flex-flow: column nowrap;
+  align-content: center;
+}
+button {
+  width: 10em;
+  margin-top: 1em;
+}
 </style>

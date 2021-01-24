@@ -1,26 +1,33 @@
 <template>
-  <form @submit.prevent>
-    <InvestmentType
-      v-if="formState.step === 0"
-      @giveReason="getReason"
-      @moveOn="nextPage"
-    />
-    <InvestmentLength
-      v-if="formState.step === 1"
-      :savingReason="questionaire.savingReason"
-      @moveOn="nextPage"
-      @giveInvestmentLength="getInvstmentLength"
-    />
-    <InvestmentAmount
-      v-if="formState.step === 2"
-      :savingReason="questionaire.savingReason"
-      @moveOn="nextPage"
-      @giveInvestmentAmount="getInvestmentAmount"
-    />
-  </form>
-  <div v-if="formState.step == 3">
-    <Button @click.prevent="getTrusts">Show Me Suitable Trusts</Button>
-    <UnitTrustList :unitTrusts="unitTrusts" />
+  <div class="container">
+    <form @submit.prevent>
+      <InvestmentType
+        v-if="formState.step === 0"
+        @giveReason="getReason"
+        @moveOn="nextPage"
+        @prevPage="prevPage"
+      />
+      <InvestmentLength
+        v-if="formState.step === 1"
+        :savingReason="questionaire.savingReason"
+        @moveOn="nextPage"
+        @prevPage="prevPage"
+        @giveInvestmentLength="getInvestmentLength"
+      />
+      <InvestmentAmount
+        v-if="formState.step === 2"
+        :savingReason="questionaire.savingReason"
+        @moveOn="nextPage"
+        @prevPage="prevPage"
+        @giveInvestmentAmount="getInvestmentAmount"
+      />
+    </form>
+    <div v-if="formState.step == 3">
+      <UnitTrustList
+        :unitTrusts="unitTrusts"
+        :savingGoal="savingGoal"
+      />
+    </div>
   </div>
 </template>
 
@@ -30,14 +37,8 @@ import data from '../assets/data.json';
 import InvestmentType from './form/InvestmentType.vue';
 import InvestmentLength from './form/InvestmentLength.vue';
 import InvestmentAmount from './form/InvestmentAmount.vue';
-import Button from './form/Button.vue';
 import UnitTrustList from './UnitTrustList.vue';
-import {
-  capitalRequired,
-  interestRequired,
-  presentValue,
-  presentValueOfFundsRequired,
-} from '../assets/services';
+/* import { capitalRequired, FV } from '../assets/services'; */
 
 export default {
   components: {
@@ -45,11 +46,16 @@ export default {
     InvestmentType,
     InvestmentLength,
     InvestmentAmount,
-    Button,
   },
   setup() {
     const formState = reactive({
       step: 0,
+    });
+    const savingGoal = reactive({
+      reason: null,
+      initialInvestment: 0,
+      investmentTime: 0,
+      monthlyInstallment: 0,
     });
     const questionaire = reactive({
       savingReason: null,
@@ -60,51 +66,40 @@ export default {
       investmentAmount: null,
       pvType: 'lump',
     });
+    /* const inflation = 3.5 / 100.0; */
     const unitTrusts = data;
     const matchingTrusts = ref([]);
     function getReason({ reasonStated, savingReason }) {
       questionaire.reasonStated = reasonStated;
       questionaire.savingReason = savingReason;
     }
-    function getInvstmentLength(investmentLength) {
+    function getInvestmentLength(investmentLength) {
       questionaire.investmentLength = investmentLength;
     }
-    function getInvestmentAmount(
-      pvType,
-      payoutLength,
-      expectedRetirementPayout,
-      investmentAmount,
-    ) {
+    function getInvestmentAmount(value) {
+      const {
+        pvType,
+        payoutLength,
+        expectedRetirementPayout,
+        investmentAmount,
+      } = value;
+      console.log(pvType);
+      savingGoal.reason = questionaire.reasonStated
+        ? questionaire.reasonStated
+        : questionaire.savingReason;
+      /* savingGoal.initialInvestment = investmentAmount; */
+      savingGoal.monthlyInstallment = investmentAmount;
+      savingGoal.investmentTime = questionaire.investmentLength;
+
       questionaire.pvType = pvType;
       questionaire.paymentLength = payoutLength;
       questionaire.expectedRetirement = expectedRetirementPayout;
       questionaire.investmentAmount = investmentAmount;
+      console.log(savingGoal);
     }
     function getTrusts() {
       const isRetirementFund = questionaire.savingReason === 'retirement';
-      const inflation = 3.5 / 100.0;
 
-      const expectedRetirement = Number(questionaire.expectedRetirement);
-      const investmentLength = Number(questionaire.investmentLength);
-      const paymentLength = Number(questionaire.paymentLength);
-      const investmentAmount = Number(questionaire.investmentAmount);
-
-      const fv = capitalRequired(
-        expectedRetirement,
-        investmentLength,
-        inflation,
-      );
-      let pv = 0;
-      if (questionaire.pvType === 'lump') {
-        pv = presentValue(paymentLength, fv, inflation);
-      } else {
-        pv = presentValueOfFundsRequired(
-          investmentAmount,
-          investmentLength,
-          inflation,
-        );
-      }
-      const interest = interestRequired(pv, fv, investmentLength);
       matchingTrusts.value = unitTrusts
         .filter((trust) => {
           if (isRetirementFund) {
@@ -117,8 +112,7 @@ export default {
             return trust.minimum_investment <= questionaire.investmentAmount;
           }
           return trust.minimum_monthly <= questionaire.investmentAmount;
-        })
-        .filter((trust) => trust.lump_returns.three_months >= interest);
+        });
     }
     function nextPage(canMoveOn) {
       formState.canMoveOn = false;
@@ -127,17 +121,28 @@ export default {
         formState.step = (formState.step + 1) % 4;
       }
     }
+    function prevPage() {
+      formState.step = formState.step > 0 ? formState.step - 1 : formState.step;
+    }
     return {
+      prevPage,
       getInvestmentAmount,
       getTrusts,
       getReason,
-      getInvstmentLength,
+      getInvestmentLength,
       unitTrusts,
       nextPage,
       questionaire,
       formState,
       matchingTrusts,
+      savingGoal,
     };
   },
 };
 </script>
+<style lang="postcss" scoped>
+.container {
+  display: flex;
+  flex-flow: column nowrap;
+}
+</style>>

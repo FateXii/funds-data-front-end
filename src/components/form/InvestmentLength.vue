@@ -1,36 +1,38 @@
 <template>
-  <div v-if="savingReason !== 'retirement'">
-    <label
-      for="investment-length"
-      class="block text-sm font-medium text-gray-700"
-      id="investment-length-label"
-    >How long would you like to invest?</label>
-  </div>
-  <div v-else>
-    <label
-      for="investment-length"
-      id="investment-length-label"
-    >How many years Till Retirement</label>
-  </div>
-  <div class="ml-8 w-10/12 relative rounded-md shadow-sm">
-    <input
-      id="investment-length"
-      name="investment-length"
-      v-model="investmentLength"
-      type="number"
-      placeholder="0"
-      class="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
-    />
-    <div
-      class="absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none"
-    >
-      <span class="text-gray-500 sm:text-sm">Years</span>
+  <div id="container">
+    <div v-if="savingReason !== 'retirement'">
+      <label
+        for="investment-length"
+        class="block text-sm font-medium text-gray-700"
+        id="investment-length-label"
+      >How long would you like to invest?</label>
     </div>
+    <div v-else>
+      <label
+        for="investment-length"
+        id="investment-length-label"
+      >How many years Till Retirement</label>
+    </div>
+    <div class="w-10/12 relative rounded-md shadow-sm">
+      <input
+        id="investment-length"
+        name="investment-length"
+        v-model="investmentLength"
+        type="number"
+        placeholder="0"
+        class="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+      />
+      <div
+        class="absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none"
+      >
+        <span class="text-gray-500 sm:text-sm">Years</span>
+      </div>
+    </div>
+    <Button
+      @click.prevent="nextPage"
+      v-if="canMoveOn"
+    >Next</Button>
   </div>
-  <Button
-    @click.prevent="nextPage"
-    v-if="canMoveOn"
-  >Next</Button>
 </template>
 
 <script>
@@ -46,6 +48,7 @@ export default {
   },
   emits: {
     moveOn: null,
+    prevPage: null,
     giveInvestmentLength: ({ investmentLength }) => {
       if (investmentLength) {
         return true;
@@ -57,7 +60,7 @@ export default {
     const canMoveOn = ref(false);
     const investmentLength = ref(null);
     watch(investmentLength, (newLength) => {
-      emit('giveInvestmentLength', { investmentLength: newLength });
+      emit('giveInvestmentLength', newLength);
       if (newLength) {
         canMoveOn.value = true;
       } else {
@@ -67,10 +70,20 @@ export default {
     function nextPage() {
       emit('moveOn', { canMoveOn });
     }
-    return { nextPage, canMoveOn, investmentLength };
+    function prevPage() {
+      emit('prevPage', {});
+    }
+    return {
+      prevPage,
+      nextPage,
+      canMoveOn,
+      investmentLength,
+    };
   },
 };
 </script>
 
-<style>
+<style scoped>
+#container {
+}
 </style>
