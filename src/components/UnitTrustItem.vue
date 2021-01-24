@@ -42,14 +42,16 @@
         </div>
       </div>
     </div>
-    <div id="returns-summary"></div>
-    <p
-      v-for="currentReturn in Object.keys(calculatedReturns)"
-      :key="currentReturn"
-    >
-      Esimated {{currentReturn}} returns
-      {{calculatedReturns[currentReturn].toFixed(2)}}
-    </p>
+    <div id="returns-summary">
+      <h3>Esimated returns</h3>
+      <div
+        v-for="currentReturn in Object.keys(calculatedReturns)"
+        :key="currentReturn"
+      >
+        Esimated returns based on the last {{currentReturn}} :
+        {{calculatedReturns[currentReturn].toFixed(2)}}
+      </div>
+    </div>
   </div>
 </template>
 
@@ -142,6 +144,9 @@ export default {
 </script>
 
 <style lang="postcss" scoped>
+#returns-summary {
+  margin: 1em 0;
+}
 #fund-objective-modal {
   position: fixed;
   left: 0;
