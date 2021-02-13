@@ -57,9 +57,8 @@ export default {
     },
   },
 };
-</script>>
-<style lang="postcss">
+</script>
+<style lang="scss">
 .heading {
-  @apply text-lg leading-6 font-medium text-gray-900;
 }
 </style>

@@ -1,4 +1,5 @@
 <template>
+  <Header />
   <div class="container">
     <form @submit.prevent>
       <InvestmentType
@@ -33,12 +34,12 @@
 
 <script>
 import { reactive, ref } from 'vue';
+import InvestmentType from '@/components/form/InvestmentType.vue';
+import InvestmentLength from '@/components/form/InvestmentLength.vue';
+import InvestmentAmount from '@/components/form/InvestmentAmount.vue';
+import UnitTrustList from '@/components/UnitTrustList.vue';
+import Header from '@/components/Header.vue';
 import data from '../assets/data.json';
-import InvestmentType from './form/InvestmentType.vue';
-import InvestmentLength from './form/InvestmentLength.vue';
-import InvestmentAmount from './form/InvestmentAmount.vue';
-import UnitTrustList from './UnitTrustList.vue';
-/* import { capitalRequired, FV } from '../assets/services'; */
 
 export default {
   components: {
@@ -46,6 +47,7 @@ export default {
     InvestmentType,
     InvestmentLength,
     InvestmentAmount,
+    Header,
   },
   setup() {
     const formState = reactive({
@@ -138,7 +140,7 @@ export default {
   },
 };
 </script>
-<style lang="postcss" scoped>
+<style lang="scss" scoped>
 .container {
   display: flex;
   flex-flow: column nowrap;
