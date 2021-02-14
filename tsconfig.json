@@ -1,5 +1,12 @@
 {
+  "ts-node": {
+    "files": true
+  },
   "compilerOptions": {
+    "typeRoots": [
+      "./src/types",
+      "./node_modules/@types"
+    ],
     "target": "esnext",
     "module": "esnext",
     "strict": true,
