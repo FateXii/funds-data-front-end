@@ -1,5 +1,5 @@
 <template>
-  <div class="form-contaner">
+  <div class="form-container">
     <el-form
       :model="authFormData"
       :rules="validationRules"
@@ -8,38 +8,34 @@
       <div class="inline-form-items">
         <el-form-item
           label="Name"
-          v-model="authFormData.name"
           prop="name"
         >
-          <el-input></el-input>
+          <el-input v-model="authFormData.name"></el-input>
         </el-form-item>
         <el-form-item
           label="Surname"
-          v-model="authFormData.surname"
           prop="surname"
         >
-          <el-input></el-input>
+          <el-input v-model="authFormData.surname"></el-input>
         </el-form-item>
       </div>
       <el-form-item
         label="Email"
-        v-model="authFormData.email"
         prop="email"
       >
-        <el-input></el-input>
+        <el-input v-model="authFormData.email"></el-input>
       </el-form-item>
       <el-form-item
         label="Phone number"
-        v-model="authFormData.phonenumber"
         prop="phonenumber"
       >
-        <el-input></el-input>
+        <el-input v-model="authFormData.phonenumber"></el-input>
       </el-form-item>
-      <el-form-item
-        type="primary"
-        @click="login"
-      >
-        <el-button></el-button>
+      <el-form-item>
+        <el-button
+          type="primary"
+          @click="login"
+        >Authenticate</el-button>
       </el-form-item>
     </el-form>
   </div>
@@ -57,6 +53,7 @@ export default {
       surname: '',
       email: '',
       phonenumber: '',
+      loggedIn: false,
     });
     const authForm = ref<any>(null);
     const validationRules = {
@@ -101,6 +98,8 @@ export default {
 
 <style lang="scss" scoped>
 .form-container {
+  padding: 1em;
+  border-radius: 0.5em;
   box-shadow: 1px 1px 8px black;
 }
 .inline-form-items {

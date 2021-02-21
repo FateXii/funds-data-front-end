@@ -1,5 +1,4 @@
 <template>
-  <Header />
   <div class="container">
     <form @submit.prevent>
       <InvestmentType
@@ -38,7 +37,6 @@ import InvestmentType from '@/components/form/InvestmentType.vue';
 import InvestmentLength from '@/components/form/InvestmentLength.vue';
 import InvestmentAmount from '@/components/form/InvestmentAmount.vue';
 import UnitTrustList from '@/components/UnitTrustList.vue';
-import Header from '@/components/Header.vue';
 import data from '../assets/data.json';
 
 export default {
@@ -47,7 +45,6 @@ export default {
     InvestmentType,
     InvestmentLength,
     InvestmentAmount,
-    Header,
   },
   setup() {
     const formState = reactive({

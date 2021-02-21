@@ -4,19 +4,18 @@ export default {
     surname: '',
     email: '',
     phonenumber: '',
+    loggedIn: false,
   }),
   mutations: {
-    register(state:User, payload:User) {
-      state.name = payload.name;
-      state.surname = payload.surname;
-      state.email = payload.email;
-      state.phonenumber = payload.phonenumber;
+    logout(state:User) {
+      state.loggedIn = false;
     },
     login(state:User, payload:User) {
       state.name = payload.name;
       state.surname = payload.surname;
       state.email = payload.email;
       state.phonenumber = payload.phonenumber;
+      state.loggedIn = true;
     },
   },
 };
