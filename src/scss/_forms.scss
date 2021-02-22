@@ -1,0 +1,33 @@
+.form-container {
+  width: 100%;
+  @include desktop-up {
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    .inline-form-items {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+      .el-form-item {
+        width: 47.5%;
+      }
+    }
+  }
+  .el-form {
+    padding: 1em;
+    width: 100%;
+    border-radius: 0.25em;
+    box-shadow: 1px 1px 8px black;
+    @include desktop-up {
+      width: 50%;
+    }
+  }
+}
+.el-form-item {
+  text-align: center;
+  &__label {
+    margin: 0;
+    line-height: 2;
+  }
+}

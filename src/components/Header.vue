@@ -13,7 +13,7 @@
           class="el-dropdown-link"
           type="primary"
         >
-          {{username}}
+          <span class="username">{{username}}</span>
           <i class="el-icon-user el-icon--right"></i>
         </el-button>
         <template #dropdown>
@@ -54,13 +54,18 @@ export default {
   height: 3em;
   box-shadow: 0 1px 8px black;
   .user-info {
+    flex-flow: 1;
     width: fit-content;
+    .username {
+      display: none;
+    }
   }
 }
 .logo {
   display: flex;
   flex-flow: row nowrap;
-  font-size: 3rem;
+  flex-grow: 2;
+  font-size: 1rem;
   width: fit-content;
   .logo-heavy {
     font-weight: bold;

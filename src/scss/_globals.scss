@@ -6,8 +6,17 @@ html{
   height: 100%;
   padding: 0;
   margin: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
 }
 
+*{
+  box-sizing: border-box;
+}
+
+#app{
+  height:100%;
+}
 
 $--font-path: '~element-plus/lib/theme-chalk/fonts';
 @import '~element-plus/packages/theme-chalk/src/index';

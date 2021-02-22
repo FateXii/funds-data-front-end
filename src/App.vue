@@ -1,6 +1,8 @@
 <template>
-  <Header />
-  <router-view />
+  <div class="container">
+    <Header />
+    <router-view />
+  </div>
 </template>
 
 <script lang="ts">
@@ -13,5 +15,10 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
+.container {
+  display: flex;
+  flex-flow: column nowrap;
+  height: 100%;
+}
 </style>

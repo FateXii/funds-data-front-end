@@ -1,7 +1,5 @@
 <template>
-  <el-container>
-    <AuthForm id="auth-form" />
-  </el-container>
+  <AuthForm />
 </template>
 <script lang="ts">
 import AuthForm from '@/components/AuthForm.vue';
@@ -26,10 +24,4 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-#auth-form {
-  position: relative;
-  top: 25vh;
-  left: 33vw;
-  width: 33vw;
-}
 </style>
