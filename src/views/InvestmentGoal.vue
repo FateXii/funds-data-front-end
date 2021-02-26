@@ -6,8 +6,7 @@
         finish-status="success"
       >
         <el-step title="Investment Goal"></el-step>
-        <el-step title="Step 2"></el-step>
-        <el-step title="Step 3"></el-step>
+        <el-step title="Contributions"></el-step>
       </el-steps>
       <InvestmentGoalDetailForm
         v-if="formState.step === 0"

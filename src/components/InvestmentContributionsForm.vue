@@ -127,11 +127,12 @@ export default {
       });
     };
     return {
+      contributionsForm,
       submitContibutions,
+      invalidContributions,
+      investmentContributionsForm,
       investmentContributionsFormValidation,
     };
   },
 };
 </script>
-<style lang="scss" scoped>
-</style>
